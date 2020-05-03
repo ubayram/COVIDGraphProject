@@ -58,7 +58,7 @@ def update_dataframe(data):
 		data.loc[ix, 'date_API'] = fetch_all_dates(str(row['doi']))
 
 
-def main(filepath, email):
+def main(filepath, email, targetpath):
     '''
     Based on a csv file, we create a dataframe, then we populate the date using the pubmed API
     :param filepath: path of csv file that will serve as source for our dataframe
@@ -68,9 +68,11 @@ def main(filepath, email):
 	data = pd.read_csv(filepath)
 	Entrez.email = email
 	update_dataframe(data)
+	data.to_excel(targetpath)
 
 if __name__ == '__main__':
 	email = "email_here"
 	filepath = './papers_to_scrape_for_timestamps.csv'
-	main(filepath,email)
+	targetpath = './updated_papers_timestamps.csv'
+	main(filepath,email, targetpath)
     
