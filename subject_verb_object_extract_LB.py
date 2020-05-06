@@ -15,6 +15,8 @@
 import spacy
 import en_core_web_sm
 from spacy.lang.en.stop_words import STOP_WORDS
+import nltk
+
 
 # use spacy small model
 nlp = en_core_web_sm.load()
@@ -283,15 +285,15 @@ def findSVOs(tokens):
                     for obj in objs:
                         objNegated = _is_negated(obj)
                         if is_pas:  # reverse object / subject for passive
-                            svos.append([to_str(expand(obj, tokens, visited)),
-                                          to_str(expand(sub, tokens, visited)), v.lemma_ + ' not' if verbNegated or objNegated else v.lemma_])
-                            svos.append([to_str(expand(obj, tokens, visited)),
-                                           to_str(expand(sub, tokens, visited)), v2.lemma_ + ' not' if verbNegated or objNegated else v2.lemma_])
+                            svos.append((to_str(expand(obj, tokens, visited)),
+                                          to_str(expand(sub, tokens, visited)), v.lemma_ + ' not' if verbNegated or objNegated else v.lemma_))
+                            svos.append((to_str(expand(obj, tokens, visited)),
+                                           to_str(expand(sub, tokens, visited)), v2.lemma_ + ' not' if verbNegated or objNegated else v2.lemma_))
                         else:
-                            svos.append([to_str(expand(sub, tokens, visited)),
-                                          to_str(expand(obj, tokens, visited)), v.lemma_ + ' not' if verbNegated or objNegated else v.lemma_])
-                            svos.append([to_str(expand(sub, tokens, visited)),
-                                          to_str(expand(obj, tokens, visited)), v2.lemma_ + ' not' if verbNegated or objNegated else v2.lemma_])
+                            svos.append((to_str(expand(sub, tokens, visited)),
+                                          to_str(expand(obj, tokens, visited)), v.lemma_ + ' not' if verbNegated or objNegated else v.lemma_))
+                            svos.append((to_str(expand(sub, tokens, visited)),
+                                          to_str(expand(obj, tokens, visited)), v2.lemma_ + ' not' if verbNegated or objNegated else v2.lemma_))
             else:
                 v, objs = _get_all_objs(v, is_pas)
                 for sub in subs:
@@ -299,11 +301,11 @@ def findSVOs(tokens):
                     for obj in objs:
                         objNegated = _is_negated(obj)
                         if is_pas:  # reverse object / subject for passive
-                            svos.append([to_str(expand(obj, tokens, visited)),
-                                          to_str(expand(sub, tokens, visited)), v.lemma_ + ' not' if verbNegated or objNegated else v.lemma_])
+                            svos.append((to_str(expand(obj, tokens, visited)),
+                                          to_str(expand(sub, tokens, visited)), v.lemma_ + ' not' if verbNegated or objNegated else v.lemma_))
                         else:
-                            svos.append([to_str(expand(sub, tokens, visited)),
-                                         to_str(expand(obj, tokens, visited)), v.lemma_ + ' not' if verbNegated or objNegated else v.lemma_])
+                            svos.append((to_str(expand(sub, tokens, visited)),
+                                         to_str(expand(obj, tokens, visited)), v.lemma_ + ' not' if verbNegated or objNegated else v.lemma_))
     
     return svos
 
@@ -359,11 +361,17 @@ def extract_link(sen):
             left_node = get_node(left)
             right_node = get_node(rights[0])
             if (left_node is not None) and (right_node is not None):
-                list_edges.append([left_node,right_node,prep.lemma_])
+                list_edges.append((left_node,right_node,prep.lemma_))
 
     list_edges.extend(findSVOs(sen))
 
     return list_edges
+
+def get_sentences(curr_abstract):
+    sentences = nltk.tokenize.sent_tokenize(curr_abstract)
+    #cont = [sen_ for sen_ in sentences[1:]  if (sen_ != '')&(~sen_.isnumeric())]
+    return sentences
+
 
 def main():
     # Need to Change the path
