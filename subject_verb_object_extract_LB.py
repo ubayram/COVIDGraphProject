@@ -16,7 +16,7 @@ import spacy
 import en_core_web_sm
 from spacy.lang.en.stop_words import STOP_WORDS
 import nltk
-
+from quantulum3 import parser
 
 # use spacy small model
 nlp = en_core_web_sm.load()
@@ -318,11 +318,21 @@ def extract_nodes(sentence):
 def get_node(tok):
     if tok.lower_ in STOP_WORDS:
         return None
-    lefts = list(tok.lefts)
+
+    lefts = [x for x in list(tok.lefts) if x.lower_ not in STOP_WORDS]
     if len(lefts)>0:
+        
         for left in lefts:
-            if left.dep_ == 'compound' or left.dep_ == 'amod' or ((tok.lower_ == '%') and (left.pos_ == 'NUM')): # to be refined
+
+            if left.dep_ == 'compound' or left.dep_ == 'amod':# or ((tok.lower_ == '%') and (left.pos_ == 'NUM')): # to be refined
                 return (left.lemma_+' '+tok.lemma_)
+            
+            if tok.pos_ == 'NOUN' and left.pos_ == 'NUM':
+                quants = parser.parse(left.lower_ + tok.lower_)
+                if quants and quants[0].unit.name != 'dimensionless':
+                    return(left.lower_ + tok.lower_)
+                
+    
             else:
                 return tok.lemma_
     else:
@@ -363,13 +373,17 @@ def main():
         nlp.vocab[word].is_stop = True
 
     # change this
-    #all_text = get_text('/Users/mac/Documents/CodeDirectory/processed_abstracts.csv', ',')
-    all_text = 'in recent years nidoviruses have emerged as an important respiratory pathogen of reptiles affecting especially captive python populations. in pythons nidovirus infection induces an inflammation of the upper respiratory and alimentary tract which can develop into a severe and often fatal proliferative pneumonia. we observed pyogranulomatous and fibrinonecrotic lesions in organ systems other than the respiratory tract during full post mortem examinations on 30 nidovirus rt pcr positive pythons of varying species originating from switzerland and spain. the observations prompted us to study whether the atypical tissue tropism associates with previously unknown nidoviruses or changes in the nidovirus genome. rt pcr and inoculation of morelia viridis cell cultures served to recruit the cases and to obtain virus isolates. immunohistochemistry and immunofluorescence staining against nidovirus nucleoprotein demonstrated that the virus not only infects a broad spectrum of epithelial respiratory and alimentary epithelium hepatocytes renal tubules pancreatic ducts etc but also intravascular monocytes intralesional macrophages and endothelial cells. by next generation sequencing we obtained full length genome for a novel nidovirus species circulating in switzerland. analysis of viral genomes recovered from pythons showing nidovirus infection associated respiratory or systemic disease did not explain the observed phenotypes. the results indicate that python nidoviruses have a broad cell and tissue tropism further suggesting that the course of infection could vary and involve lesions in a broad spectrum of tissues and organ systems as a consequence of monocyte mediated systemic spread of the virus.'
+    #all_text = get_text('/Users/mac/Documents/CodeDirectory/processed_abstracts_old.csv', ',')
+    all_text = 'a critical shortage of respirators masks and other personal protective equipment ppe exists across all sectors of society afflicted by the covid 19 pandemic placing medical staff and service workers at heightened risk and hampering efforts to reduce transmission rates. of particular need are the n95 medical face respirators that filter 95% of all airborne particles at and above 0.3 um in diameter many of which use meltblown microfibers of charged polypropylene e.g the 3m 8200. an intensive search is underway to find reliable methods to lengthen the useful life of these normally disposable units. it is currently believed that these masks and respirators cannot be cleaned with 70 to 75% alcohol water solutions as past wetdry experiments show that filtration efficiency can drop by 40% after the first such treatment. this has been interpreted as the liquids disrupting the surface charge on the fibers and has led to a recent cdcniosh advisory against using alcohol for their decontamination. we have replicated the drop in efficiency after alcohol treatment. however we find that the efficiency can be recovered by more effective drying which we achieve with a vacuum chamber. drying at pressures of 6 mbar 0.6 kpa restores the measured filtering efficiency to within 2% or so of the pre washing value which we have sustained for 5 cleaning drying cycles so far in three models of n95 masks. the mechanism seems to be the removal of water molecules adsorbed on the fiber surfaces a hypothesis which is supported by two independent observations a the filtering efficiency increases non linearly with the weight loss during drying and b filtration efficiency shows an abrupt recovery as the vacuum pressure drops from 13 to 6 mbar the range physically attributable to the removal of adsorbed water. these results are not compatible with the electrostatic discharge hypothesis and rather suggest that water molecules adsorbed to the fiber surface are reducing the filtration efficiency via surface tension interactions e.g. wicking between the fibers and coating their surfaces with a film. such a degradation mechanism has two implications a respirators decontaminated by a soak in 70% vv ethanol regain their filtration efficiency once they are fully dry. we employ vacuum chambers in this study which are inexpensive and commonly available. b this mechanism presents the possibility that mask filtration performance may be subject to degradation by other sources of moisture and that the mask would continue to be compromised even if it appears dry. the mask would need to be vacuum dried to restore its performance. this study introduces a number of methods which could be developed and validated for use in resource limited settings. as the pandemic spreads to rural areas and developing nations these would allow for local efforts to decontaminate restore monitor and test medical masks.'
     links = extract_link(nlp(all_text))
     print(links)
 
 if __name__ == '__main__':
     main()
+
+
+
+
 
 
 
