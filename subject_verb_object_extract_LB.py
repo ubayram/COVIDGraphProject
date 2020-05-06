@@ -234,30 +234,9 @@ def expand(item, tokens, visited):
         item = _get_that_resolution(tokens)
 
     parts = []
-
-    # if hasattr(item, 'lefts'):
-    #     for part in item.lefts:
-    #         if part.pos_ in BREAKER_POS:
-    #             break
-    #         if not part.lower_ in NEGATIONS:
-    #             parts.append(part)
-
-    parts.append(get_node(item))
-
-    # if hasattr(item, 'rights'):
-    #     for part in item.rights:
-    #         if part.pos_ in BREAKER_POS:
-    #             break
-    #         if not part.lower_ in NEGATIONS:
-    #             parts.append(part)
-
-    # if hasattr(parts[-1], 'rights'):
-    #     for item2 in parts[-1].rights:
-    #         if item2.pos_ == "DET" or item2.pos_ == "NOUN":
-    #             if item2.i not in visited:
-    #                 visited.add(item2.i)
-    #                 parts.extend(expand(item2, tokens, visited))
-    #         break
+    node = get_node(item)
+    if node:
+        parts.append(node)
 
     return parts
 
@@ -385,7 +364,7 @@ def main():
 
     # change this
     #all_text = get_text('/Users/mac/Documents/CodeDirectory/processed_abstracts.csv', ',')
-    all_text = 'of particular need are the n95 medical face respirators that filter 95% of all airborne particles at and above 0.3 um in diameter many of which use meltblown microfibers of charged polypropylene e.g the 3m 8200. an intensive search is underway to find reliable methods to lengthen the useful life of these normally disposable units'
+    all_text = 'in recent years nidoviruses have emerged as an important respiratory pathogen of reptiles affecting especially captive python populations. in pythons nidovirus infection induces an inflammation of the upper respiratory and alimentary tract which can develop into a severe and often fatal proliferative pneumonia. we observed pyogranulomatous and fibrinonecrotic lesions in organ systems other than the respiratory tract during full post mortem examinations on 30 nidovirus rt pcr positive pythons of varying species originating from switzerland and spain. the observations prompted us to study whether the atypical tissue tropism associates with previously unknown nidoviruses or changes in the nidovirus genome. rt pcr and inoculation of morelia viridis cell cultures served to recruit the cases and to obtain virus isolates. immunohistochemistry and immunofluorescence staining against nidovirus nucleoprotein demonstrated that the virus not only infects a broad spectrum of epithelial respiratory and alimentary epithelium hepatocytes renal tubules pancreatic ducts etc but also intravascular monocytes intralesional macrophages and endothelial cells. by next generation sequencing we obtained full length genome for a novel nidovirus species circulating in switzerland. analysis of viral genomes recovered from pythons showing nidovirus infection associated respiratory or systemic disease did not explain the observed phenotypes. the results indicate that python nidoviruses have a broad cell and tissue tropism further suggesting that the course of infection could vary and involve lesions in a broad spectrum of tissues and organ systems as a consequence of monocyte mediated systemic spread of the virus.'
     links = extract_link(nlp(all_text))
     print(links)
 
