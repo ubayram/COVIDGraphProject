@@ -240,7 +240,7 @@ def expand(item, tokens, visited):
     #         if not part.lower_ in NEGATIONS:
     #             parts.append(part)
 
-    parts.append(item)
+    parts.append(get_node(item))
 
     # if hasattr(item, 'rights'):
     #     for part in item.rights:
@@ -262,7 +262,7 @@ def expand(item, tokens, visited):
 
 # convert a list of tokens to a string
 def to_str(tokens):
-    return ' '.join([item.lemma_ for item in tokens])
+    return ' '.join([item for item in tokens])
 
 
 # find verbs and their subjects / objects to create SVOs, detect passive/active sentences
@@ -325,7 +325,7 @@ def extract_nodes(sentence):
         lefts = list(word.lefts)
         if word.pos_ == 'NOUN':
             for tok in lefts:
-                if tok.dep_ == 'compound' or tok.dep_ == 'amod': # to be refined
+                if tok.dep_ == 'compound' or tok.dep_ == 'amod' or tok.pos_ == 'NUM': # to be refined
                     if tok.lower_ not in STOP_WORDS:
                         list_nodes.append(tok.lemma_+' '+word.lemma_)
                     else:
@@ -340,7 +340,7 @@ def get_node(tok):
     lefts = list(tok.lefts)
     if len(lefts)>0:
         for left in lefts:
-            if left.dep_ == 'compound' or left.dep_ == 'amod': # to be refined
+            if left.dep_ == 'compound' or left.dep_ == 'amod' or ((tok.lower_ == '%') and (left.pos_ == 'NUM')): # to be refined
                 return (left.lemma_+' '+tok.lemma_)
             else:
                 return tok.lemma_
@@ -367,7 +367,7 @@ def extract_link(sen):
 
 def main():
     # Need to Change the path
-    path_to_stopwords = 'path_to_stopwords/nltk_stopwords.txt'
+    path_to_stopwords = '/Users/mac/Documents/CodeDirectory/nltk_stopwords.txt'
     
     # Keep this block
     with open(path_to_stopwords, 'r') as file:
@@ -376,8 +376,9 @@ def main():
         nlp.vocab[word].is_stop = True
 
     # change this
-    all_text = get_text('/Users/mac/Documents/CodeDirectory/processed_abstracts.csv', ',')
-    links = extract_link(nlp(all_text[52]))
+    #all_text = get_text('/Users/mac/Documents/CodeDirectory/processed_abstracts.csv', ',')
+    all_text = 'of particular need are the n95 medical face respirators that filter 95% of all airborne particles at and above 0.3 um in diameter many of which use meltblown microfibers of charged polypropylene e.g the 3m 8200. an intensive search is underway to find reliable methods to lengthen the useful life of these normally disposable units'
+    links = extract_link(nlp(all_text))
     print(links)
 
 if __name__ == '__main__':
