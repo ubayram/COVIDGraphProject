@@ -208,11 +208,11 @@ def _is_passive(tokens):
 
 
 # resolve a 'that' where/if appropriate
-def _get_that_resolution(toks):
+def _get_that_resolution(item, toks):
     for tok in toks:
         if 'that' in [t.orth_ for t in tok.lefts]:
             return tok.head
-    return toks
+    return item
 
 
 # simple stemmer using lemmas
@@ -232,7 +232,7 @@ def printDeps(toks):
 # expand an obj / subj np using its chunk
 def expand(item, tokens, visited):
     if item.lower_ == 'that':
-        item = _get_that_resolution(tokens)
+        item = _get_that_resolution(item, tokens)
 
     parts = []
     node = get_node(item)
@@ -277,9 +277,9 @@ def findSVOs(tokens):
             else:
                 v, objs = _get_all_objs(v, is_pas)
                 for sub in subs:
-                    
                     for obj in objs:
                         objNegated = _is_negated(obj)
+
                         if is_pas:  # reverse object / subject for passive
                             svos.append((to_str(expand(obj, tokens, visited)),
                                           to_str(expand(sub, tokens, visited)), v.lemma_ + ' not' if verbNegated or objNegated else v.lemma_))
@@ -287,7 +287,7 @@ def findSVOs(tokens):
                             svos.append((to_str(expand(sub, tokens, visited)),
                                          to_str(expand(obj, tokens, visited)), v.lemma_ + ' not' if verbNegated or objNegated else v.lemma_))
     
-    return svos
+    return [(s,o,v) for s,o,v in svos if (s!='') and (o!='')]
 
 def get_text(file, sep):
     cont = list()
@@ -375,18 +375,18 @@ def main():
 
     # change this
     #all_text = get_text('/Users/mac/Documents/CodeDirectory/processed_abstracts_old.csv', ',')
-    all_text = 'background the spread of an novel coronavirus sars cov 2 previously named 2019 ncov has already taken on pandemic proportions affecting over 100 countries in a matter of weeks. elucidating the diagnostic value of different methods especially the auxiliary diagnosis value of antibodies assays for sars cov 2 infection is helpful for improving the sensitivities of pathogenic diagnosis providing timely treatment and differentiating the infected cases from the healthy thus preventing further epidemics. methods medical records from 38 patients with confirmed sars cov 2 infection in the second people\'s hospital of fuyang from january 22 2020 to february 28 2020 were collected and retrospectively analyzed. specimens including throat swabs sputum and serum were collected during the hospitalization period viral rnas and serum igm igg antibodies to sars cov 2 were measured respectively. the detectability of different methods as well as the auxiliary diagnosis value of antibodies test for sars cov 2 infection were analyzed. results among 38 patients the total seropositive rate for igm and igg was 50.0% and 92.1% respectively. two patients remained seronegative throughout the course of illness. in the early phase of illness the rna test for sputum specimens possessed the highest detectability92.3% followed by the the rna test for throat swabs 69.2% and the antibodies assays presented lower positive ratesigm 23.0% igg 53.8%. while the sensitivity of antibodies assays overtook that of rna test since day 8 after onset igm 50.0% igg 87.5%. of note the positive rate of throat swabs was only 13.0% for cases in later phase≥15 d.a.o and the sensitivities of igm and igg rose to 52.2% and 91.3% respectively. combined use of antibodies assay and qrt pcr at the same time was able to improve the sensitivities of pathogenic diagnosis especially for the throat swabs group at the later stage of illness. moreover most of these cases with undetectable viral rna in throat swabs specimens at the early stage of illness were able to be igm/igg seropositive after 7 days. conclusions the antibodies detection against sars cov 2 offers vital clinical information for physicians and could be used as an effective supplementary indicator for suspected cases of negative viral nucleic acid detection or in conjunction with nucleic acid detection in the diagnosis of suspected cases.'
-    links = extract_link(nlp(all_text))
-    print(links)
+    # all_text = 'the corona virus sars-cov-2 or covid-19 pandemic is growing alarmingly throughout the whole world. using the power law scaling we analyze the data of different countries and three states of india up to 1st april 2020 and explain in terms of power law exponent. we find significant reduction in growth of infections in china and denmark g reduced from approximately 2.18 to 0.05 and 11.41 to 6.95 respectively. very slow reduction is also seen in brazil and germany g reduced from approximately 6 to 4 and 11 to 7 respectively. infection in india is growing g9.23 though lesser in number than that in the usa highest g of 16 approximately studied so far italy and a few other countries'
+    # links = extract_link(nlp(all_text))
+    # print(links)
 
-    # data = pd.read_csv('/Users/mac/Documents/CodeDirectory/processed_dataset.csv')
-    # data['links'] = ''
+    data = pd.read_csv('/Users/mac/Documents/CodeDirectory/processed_dataset.csv')
+    data['links'] = ''
 
-    # for ix, row in data[:100].iterrows():
-    #     print(ix)
-    #     data.loc[ix, 'links'] = extract_link(nlp(row['abstract']))
+    for ix, row in data.iterrows():
+        print(ix)
+        data.loc[ix, 'links'] = extract_link(nlp(row['abstract']))
 
-    # data.to_csv('/Users/mac/Documents/CodeDirectory/test_extract.csv')
+    data.to_csv('/Users/mac/Documents/CodeDirectory/test_extract.csv')
 
 if __name__ == '__main__':
     main()
