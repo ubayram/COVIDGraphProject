@@ -298,23 +298,23 @@ def get_text(file, sep):
         cont.extend([sen_ for sen_ in sentences[1:]  if (sen_ != '')&(~sen_.isnumeric())])
     return cont
 
-def extract_nodes(sentence):
-    list_nodes = list()
-    for word in sentence:
-        if word.lower_ in STOP_WORDS:
-            pass
-        rights = list(word.rights)
-        lefts = list(word.lefts)
-        if word.pos_ == 'NOUN':
-            for tok in lefts:
-                if tok.dep_ == 'compound' or tok.dep_ == 'amod' or tok.pos_ == 'NUM': # to be refined
-                    if tok.lower_ not in STOP_WORDS:
-                        list_nodes.append(tok.lemma_+' '+word.lemma_)
-                    else:
-                        list_nodes.append(word.lemma_)
-                else:
-                    list_nodes.append(word.lemma_)
-    return list_nodes
+# def extract_nodes(sentence):
+#     list_nodes = list()
+#     for word in sentence:
+#         if word.lower_ in STOP_WORDS:
+#             pass
+#         rights = list(word.rights)
+#         lefts = list(word.lefts)
+#         if word.pos_ == 'NOUN':
+#             for tok in lefts:
+#                 if tok.dep_ == 'compound' or tok.dep_ == 'amod' or tok.pos_ == 'NUM': # to be refined
+#                     if tok.lower_ not in STOP_WORDS:
+#                         list_nodes.append(tok.lemma_+' '+word.lemma_)
+#                     else:
+#                         list_nodes.append(word.lemma_)
+#                 else:
+#                     list_nodes.append(word.lemma_)
+#     return list_nodes
 
 def get_node(tok):
     if tok.lower_ in STOP_WORDS:
@@ -328,12 +328,18 @@ def get_node(tok):
             if left.dep_ == 'compound' or left.dep_ == 'amod':# or ((tok.lower_ == '%') and (left.pos_ == 'NUM')): # to be refined
                 return (left.lemma_+' '+tok.lemma_)
             
-            if tok.pos_ == 'NOUN' and left.pos_ == 'NUM':
-                quants = parser.parse(left.lower_ + tok.lower_)
-                if quants and quants[0].unit.name != 'dimensionless':
-                    return(left.lower_ + tok.lower_)
                 
-    
+            if tok.pos_ == 'NOUN' and left.pos_ == 'NUM':
+                try:
+                    quants = parser.parse(left.lower_ + tok.lower_)
+                    if quants[0].unit.name != 'dimensionless' and quants[0].unit.uri != None:
+                        return(left.lower_ +' '+ tok.lower_)
+                    else: #quants[0].unit.name == 'dimensionless':
+                        return tok.lower_
+                except:
+                    return None    
+
+
             else:
                 return tok.lemma_
     else:
@@ -382,7 +388,7 @@ def main():
     data = pd.read_csv('/Users/mac/Documents/CodeDirectory/processed_dataset.csv')
     data['links'] = ''
 
-    for ix, row in data.iterrows():
+    for ix, row in data[:10].iterrows():
         print(ix)
         data.loc[ix, 'links'] = extract_link(nlp(row['abstract']))
 
