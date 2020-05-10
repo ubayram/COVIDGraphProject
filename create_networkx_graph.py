@@ -51,6 +51,8 @@ def updateWeightsTime(links, node_weights, tuples_weight, time_key):
 
     nodes_list = []
     for item in links:
+        if item[0] == item[1]:
+            continue
         if item not in tuples_weight[time_key].keys():
             tuples_weight[time_key][item] = 1
         else:
@@ -71,6 +73,8 @@ def updateWeights(links, node_weights, tuples_weight):
 
     nodes_list = []
     for item in links:
+        if item[0] == item[1]:
+            continue
         if item not in tuples_weight.keys():
             tuples_weight[item] = 1
         else:
