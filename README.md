@@ -3,6 +3,7 @@
 Current time for the following graph pre
 
 Before units   After units.json   After killing self-loops
+
 Nodes: 267,015 - 259,723 - 259,718
 
 Edges: 822,631 - 791,812 - 791,196
