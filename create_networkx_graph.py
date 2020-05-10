@@ -23,7 +23,8 @@ def get_sentences(curr_abstract):
     return sentences
 
 def ignoreAbbreviations(curr_abstract):
-
+    #curr_abstract = curr_abstract.replace('≥', ' ')
+    #curr_abstract = curr_abstract.replace('  ', ' ')
     list_abbreviations = ['i.e.', 'e.g.', 'e.g', 'v.s.', 'inc.', 'etc.']
     clean_abbreviations = ['ie', 'eg', 'eg', 'vs', 'inc', 'etc']
     list_tokens = curr_abstract.split(' ')
@@ -148,7 +149,7 @@ for i in range(len(all_abstracts)):
     links = lm.extract_link(nlp(curr_abstract))
     # get unique list of entity-relation triplets - so no repetitions
     links = list(set(links))
-    #print('\n')
+    print(i)
 
     node_weights, tuples_weight = updateWeightsTime(links, node_weights, tuples_weight, time_key)
     node_weights_all, tuples_weight_all = updateWeights(links, node_weights_all, tuples_weight_all)
@@ -166,13 +167,13 @@ for k in node_weights.keys():
         relations.append(curr_tuple[2])
         weights.append(tuples_weight[k][curr_tuple])
 
-    kg_df = pd.DataFrame({'source':source, 'target':target, 'edge':relations, 'edge_weight':weights})
+    kg_df = pd.DataFrame({'source':source, 'target':target, 'edge':relations, 'weight':weights})
     G=nx.from_pandas_edgelist(kg_df,"source", "target", edge_attr=True, create_using=nx.DiGraph())
 
-    nx.set_node_attributes(G, node_weights, 'node_weight')
+    nx.set_node_attributes(G, node_weights[k], 'weight')
 
     nx.write_gml(G, save_filename)
-    print(k)
+    print('Current time for the following graph ' + k)
     print(G.number_of_nodes())
     print(G.number_of_edges())
 
@@ -190,10 +191,10 @@ for curr_tuple in tuples_weight_all.keys():
     relations.append(curr_tuple[2])
     weights.append(tuples_weight_all[curr_tuple])
 
-kg_df = pd.DataFrame({'source':source, 'target':target, 'edge':relations, 'edge_weight':weights})
+kg_df = pd.DataFrame({'source':source, 'target':target, 'edge':relations, 'weight':weights})
 G=nx.from_pandas_edgelist(kg_df,"source", "target", edge_attr=True, create_using=nx.DiGraph())
 
-nx.set_node_attributes(G, node_weights, 'node_weight')
+nx.set_node_attributes(G, node_weights_all, 'weight')
 
 nx.write_gml(G, save_filename)
 print('All')
