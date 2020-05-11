@@ -1,0 +1,5669 @@
+know	0
+epidemiological characteristic	2
+little	4
+outbreak	32
+novel coronavirus	14
+case definition	2
+value	2
+wuhan	1
+confirm case	4
+detailed analysis	3
+regulator	1
+flc relative	0
+malignant liver	1
+associate	0
+flc activity	1
+finding	14
+approach	12
+rare cancer	0
+youth	1
+treatment	22
+inhibitor	2
+gene	5
+cell viability	1
+flc tumor	0
+expression profile	1
+flc model	1
+new target	1
+drug development	2
+molecular difference	0
+virus	53
+allow	0
+permission	2
+reuse	1
+coronavirus distinct	0
+sars virus	3
+host	6
+2019ncov	1
+preliminary analysis	0
+new virus	6
+consider	0
+result	35
+2015	0
+2019.ncov	1
+bat	5
+provide	0
+article	7
+transmit	0
+cluster	4
+bat sequence	1
+mutation	3
+structural analysis	1
+ability	21
+homology modelling	1
+protein	20
+concern	3
+new coronavirus	2
+human	16
+exhibit	0
+dependent manner	1
+significant reduction	0
+virus titer	1
+crosse lacv	0
+lacv infection	1
+antiviral	3
+know determinant	0
+lacv entry	1
+hundred	0
+compound	5
+activity	11
+la virus	2
+identify	0
+screen	1
+valinomycin	5
+drug discovery	0
+rift enteroviruse	0
+antiviral activity	6
+potential antiviral	0
+method	36
+potential target	2
+virus infection	8
+particle stability	0
+hemorrhagic fever	1
+disease	28
+novel antiviral	2
+observe	0
+viral infection	9
+cellular viability	0
+wide array	1
+human pathogen	1
+asymptomatic dozen	0
+case	36
+importance	7
+potassium ion	1
+range	3
+focus	1
+promising	1
+host pathway	1
+treat cell	3
+approve treatment	1
+potent activity	0
+multiple type	1
+extend	0
+viral family	2
+demonstrate	0
+sum	1
+approve	0
+know antiviral	0
+potential molecule	1
+virus antiviral	0
+significant disease	1
+emerge bunyavirus	1
+bunyavirus	0
+selection	8
+ionophore	2
+infectivity	0
+bunyavirus infection	1
+encephalitis	0
+eastern states	0
+member	4
+significant pathogen	1
+potassium ionophore	1
+region	8
+increase	0
+country	17
+wuhan china	1
+china	1
+transmission	2
+public concern	2
+model	7
+people	11
+calculate	0
+rp model	1
+january	0
+abstractas	1
+unknown etiology	2
+chinese authority	2
+potential transmission	0
+infection source	1
+market reservoir	1
+wuhan pneumonia	0
+basic r0	1
+human infection	2
+develop	0
+study	75
+lipopolysaccharide treatment	0
+sickness behavior	2
+specific activation	0
+hm3dq activation	1
+vivo	14
+useful tool	3
+regulate function	0
+distinct type	2
+chronic activation	2
+m3 receptor	1
+acute treatment	1
+cno	2
+response	18
+immunological challenge	1
+vitro	0
+modulate expression	0
+inflammatory cytokine	3
+present	0
+astrocyte	1
+activation	13
+hm3dq	1
+drug dreadd	0
+hm3dq receptor	3
+explain	0
+improvement	8
+microglial function	0
+sense	3
+induce change	2
+brain	10
+clozapine cno	0
+neuroinflammation	1
+gpcr	0
+acetylcholine	0
+mouse	21
+negative mouse	1
+manipulation	1
+neurodegenerative function	1
+effect	10
+increase phagocytosi	0
+role	6
+microglial memory	0
+applicable	0
+chronic treatment	1
+male behavior	0
+fluosphere	1
+microglia	0
+muscarinic gpcr	1
+muscarinic signaling	1
+intracellular level	0
+mean time	1
+symptom onset	5
+representative	0
+patient	46
+current effort	3
+describe	0
+lead	0
+sustained transmission	6
+estimate	1
+datum	14
+time	14
+risk	21
+probability	6
+import case	2
+transmissible	0
+sars coronavirus	2
+coronavirus	3
+hospitalisation	1
+large epidemic	0
+ongoing outbreak	1
+evidence	3
+world	7
+intense surveillance	0
+arrive	0
+infect	0
+current outbreak	1
+korea japan	0
+middle age	1
+total titer	2
+influenza	7
+immune interaction	2
+vary	0
+individual	7
+contribute	0
+life course	1
+increase titer	0
+strain	7
+great variation	0
+circulate strain	2
+adjust	0
+homologous titer	1
+increase frequency	0
+seroconversion	2
+potential increase	0
+early life	1
+comprehensive description	1
+immunity	2
+86	0
+decrease	0
+widespread exposure	0
+participant	11
+complex history	2
+high titer	1
+improved correlate	1
+see	0
+construct	1
+influenza strain	1
+human immunity	2
+recent strain	1
+past exposure	0
+profile	2
+characterize	0
+multiple strain	1
+titer change	1
+feature	3
+burden	2
+healthcare system	4
+actual number	0
+infected case	1
+specific burden	1
+isolation ward	1
+report	6
+estimate case	1
+available information	0
+spread	6
+surge	0
+public	2
+abstracta pneumonia	1
+% efficacy	0
+public intervention	1
+anticipation	1
+scenario	1
+different rate	1
+substantial burden	1
+evaluate	0
+estimate burden	0
+learn association	1
+pathogen genome	1
+contribution	1
+final decision	1
+new approach	3
+convolutional visualization	1
+information content	0
+nucleotide	2
+cut	0
+half	4
+map	1
+shallow learning	0
+architecture	5
+standard algorithm	0
+relate gene	0
+generalizing	0
+taxonomic unit	2
+reliable method	0
+viral prediction	1
+detect	0
+standard workflow	1
+disentangle	0
+training	2
+novel agent	1
+read	1
+nelfinavir	0
+sie method	2
+approve drug	1
+vote	0
+bind energy	1
+sars structure	1
+homology model	1
+gbsa	2
+dock	0
+base	1
+docking score	1
+mol	1
+select	0
+bind calculation	1
+3d similarity	0
+bind mode	1
+known ligand	1
+incorporate	0
+universal vaccine	1
+present study	13
+wide range	3
+continuous surveillance	1
+cov strain	1
+novel virus	2
+hba epitope	0
+immunopathological outcome	3
+viral adaptation	0
+human host	1
+dr allele	0
+evolution	4
+selection pressure	3
+requirement	1
+variation	2
+globe	1
+bat cov	1
+ncov genotype	1
+hla type	1
+abstractnovel outbreak	2
+live market	1
+emergence	2
+practical solution	1
+candidate peptide	0
+vaccine development	2
+city	3
+exert	0
+circulate	0
+immunodominant epitope	1
+evolve	1
+effort	2
+understand	2
+2019-ncov	1
+epitope affinity	1
+dizziness	2
+severe syndrome	2
+ongoing capacity	1
+animal	5
+generation rna	2
+table	3
+clinical characteristic	3
+major threat	0
+collect	0
+presence	9
+throat swab	1
+body temperature	2
+sample	9
+sea market	1
+bacterial culture	1
+complain	0
+chest tightness	1
+related	0
+group	18
+severe cough	1
+december	0
+family coronaviridae	2
+31	0
+epidemiological investigation	2
+onset	2
+illness	7
+cough	0
+wuhan hospital	0
+severe disease	7
+human-1 whcv	0
+weakness	0
+worker	0
+market	3
+37.2	0
+public health	2
+show	0
+local center	1
+hospitalize	0
+central preprint	1
+phlegm	1
+streptococcus bacteria	1
+high ventilation	0
+history	1
+genomic recombination	1
+genetic distance	1
+lasergene	1
+implement	0
+software package	1
+similar isolate	0
+global initiative	2
+length	1
+abstractbackgroundthe outbreak	1
+mega software	1
+involve	0
+bayesian analysis	2
+molecular characteristic	0
+sequence cd	0
+database gisaid	0
+different tree	1
+different strain	4
+appear	0
+nucleotide rate	1
+level	4
+acid residue	3
+sequence	6
+×	0
+genome	7
+induce	0
+organ	6
+successful sirna	1
+good candidate	2
+base therapy	1
+sirna	1
+plethora	2
+potential candidate	1
+efficient	0
+tumor inhibition	1
+sirna candidate	0
+specificity	3
+human disease	3
+design approach	1
+efficacy	1
+fibrosis	0
+subject	4
+stringent search	1
+cancer	6
+computation algorithm	0
+order	18
+select candidate	2
+silence potency	0
+empirical guideline	2
+sirna design	1
+select sirna	1
+effective sirna	0
+compare	1
+effective candidate	0
+gremlin-1 silencing	1
+depend	0
+versatile molecule	1
+target	1
+cancer therapy	1
+emerge	0
+docking validation	0
+pbg	2
+solve	0
+potential virus	3
+novel platform	0
+design	3
+peptide	9
+panda	2
+new platform	0
+crystallize	0
+paper	7
+structural characteristic	0
+giant pmhc	1
+representative specie	0
+ursidae	2
+unique feature	0
+pmhc	2
+anchor site	1
+key paime-128	2
+comparison	2
+mammal	2
+assembly	0
+cd8	0
+unusual event	2
+distinct characteristic	1
+vaccine	16
+application	3
+structure	3
+ctl epitope	0
+mhc system	1
+molecule	1
+bear family	1
+unusual situation	0
+trimolecular complex	0
+tcr recognition	1
+panda immunology	1
+tcr docking	3
+rare	0
+date	6
+t immunology	1
+family	2
+research	9
+antigen presentation	0
+unique characteristic	1
+classical mhc	0
+immunology	1
+detail	2
+complex	3
+unique pocket	1
+mhc molecule	1
+groove pbg	1
+panda pmhc	1
+antiviral immunity	0
+critical link	1
+analyze	0
+panda immunity	1
+change	3
+aware correction	4
+accuracy	0
+genomic datum	4
+rna expression	1
+short read	2
+spectrum	1
+downstream application	1
+lbroseus	0
+transcriptome analysis	3
+numerous algorithm	1
+c	1
+novel algorithm	2
+talc transcription	0
+weighted graph	0
+long read	0
+transcriptome study	1
+correction	1
+technology.availability	0
+depth	0
+representation	0
+talc	1
+data.resultswe	1
+novel strategy	1
+viral inhibitor	1
+mer	4
+development	14
+sofosbuvir	1
+similar mechanism	2
+hepatitis virus	0
+approve velpatasvir	0
+protide approach	1
+build	0
+nucleotide analogue	1
+regional emergency	1
+use	17
+sars	1
+coronaviruse	6
+molecular insight	1
+natural history	0
+emerge virus	6
+epidemiological dynamic	0
+time interval	1
+incubation period	4
+opportunity	7
+available datum	0
+ongoing epidemic	1
+hospital admission	0
+quarantine	1
+right truncation	1
+covid-19 infection	1
+geographic spread	1
+fall	1
+% confidence	1
+death	7
+95th estimate	1
+truncation	3
+isolation	1
+abstractbackgroundsan outbreak	0
+disease rate	1
+potential	7
+si	0
+coronavirus disease	1
+early phase	4
+outbreak.methodsaccounting	1
+rate γ	1
+pneumonia	3
+major city	1
+approximation	0
+true datum	1
+impact	1
+exponential growth	1
+report rate	1
+enter	0
+unknown receptor	1
+cell type	0
+b viruse	0
+bypass	1
+significant barrier	0
+b virus	1
+b betacoronaviruse	0
+project	2
+sars- cov	1
+specie barrier	0
+tool	9
+thousand	1
+coronavirus sequence	1
+different specie	2
+entry	3
+human cell	3
+zoonotic outbreak	0
+diverse animal	1
+severe illness	3
+recent 2019-ncov	0
+receptor usage	1
+protease processing	0
+viral entry	1
+cross	0
+potential host	0
+respiratory coronaviruse	0
+prediction	2
+deep learning	1
+host method	1
+deep algorithm	0
+strong potential	1
+infectivity pattern	0
+candidate reservoir	1
+close infectivity	0
+human coronaviruse	1
+vertebrate	3
+kind	0
+introduce	0
+dna sequence	1
+assign	0
+similar pattern	1
+mink virus	2
+bat coronaviruse	2
+consequence	0
+infectivity analysis	1
+close pattern	0
+early prevention	0
+viral pathogen	2
+increase sensitivity	1
+apical response	0
+nasal tissue	3
+respond	0
+apical stimulation	1
+loss	2
+cilia	1
+alter polarization	1
+dedifferentiated epithelium	1
+retinoic deficiency	0
+epithelial morphology	2
+air ali	0
+squamous cell	1
+middle turbinate	0
+basolateral stimulation	1
+expose	0
+il-13 condensate	1
+reduce acid	0
+primary culture	4
+early disease	0
+breakdown	1
+relate modifier	2
+par-2 stimulation	1
+isolate	2
+polyp	1
+protease	3
+activate receptor	1
+cilia measurement	0
+condensate	0
+cell	28
+states.resultspar-2	1
+fluid secretion	1
+signal	0
+allergy	1
+epithelial barrier	1
+quantification	0
+cytokine	5
+live calcium	0
+trigger	1
+differentiate nasal	0
+par-2	1
+inhale	0
+inflammatory disease	2
+concentration	3
+par-2 agonist	1
+epithelial remodeling	0
+epidemic	8
+effective mean	1
+cause	0
+life cycle	8
+replication	8
+throughput screening	1
+attractive target	0
+infection	42
+proliferation	1
+key protease	2
+clinical application	2
+drug	7
+effective strategy	1
+high capacity	0
+investigation	9
+transmissibility severity	1
+guarantee safety	1
+pathogen	18
+specific inhibitor	2
+abstractthe emergence	0
+health emergency	2
+s priming	1
+translate	0
+pathogenesis	8
+s	3
+coronavirus receptor	1
+central property	0
+risk assessment	1
+intervention	4
+rapid spread	0
+spike protein	2
+important commonality	1
+insight	0
+ncov-2019 entry	1
+assessment	0
+pandemic potential	2
+variable tract	0
+competitive advantage	1
+experiment	5
+pks	1
+investigate	0
+selective acetylation	2
+genome replication	2
+initiation	0
+translation	1
+consistent	0
+early report	2
+predict structure	1
+function	6
+rescue	0
+pk copy	0
+pk region	1
+infectious virus	1
+picornavirus	2
+putative signal	1
+pk	0
+single frame	0
+shape analysis	0
+local transmission	0
+potential outbreak	3
+introduction	1
+caribbean region	1
+time period	2
+document report	0
+local population	1
+reverse pcr	0
+denv4 strain	2
+mosquito infection	0
+inability	2
+outbreak transmission	1
+absence	7
+year period	1
+sustained effort	1
+united states	1
+increased introduction	1
+human travel	1
+mosquito population	3
+area	8
+occur	0
+respect	4
+proactive effort	0
+predictable season	2
+transmission success	0
+dengue virus	1
+coincident	0
+decade	5
+significance	1
+prolonged maintenance	1
+specific association	0
+local case	1
+viral signature	2
+proactive control	1
+molecular surveillance	2
+phenomenon	2
+endemic country	3
+abstractthe incidence	1
+document case	0
+denv4 infection	1
+prior	0
+implementation	3
+comprehensive surveillance	1
+manatee florida	0
+aegypti mosquito	2
+acquire infection	1
+county	1
+advance	1
+denv4 persistence	0
+florida	0
+aegypti	1
+current paradigm	1
+metavirome	0
+population	12
+dengue outbreak	1
+2016	0
+virus denv4	1
+denv4 case	1
+continental	1
+validate infection	0
+mediate	0
+mosquito	2
+human case	1
+vector aede	1
+heighten effort	1
+airport	1
+unknown aetiology	1
+causative agent	0
+world organization	1
+notify	0
+underline	0
+international spread	0
+stochastic simulation	0
+early trajectory	1
+epidemiological finding	1
+inhibited activity	1
+require	0
+nsp2-encoded protease	1
+express	0
+nsp3	1
+processing	2
+structural polyprotein	1
+reduction	3
+expression	6
+mechanistic explanation	0
+ribosyltransferase family	1
+recent finding	1
+adapt	0
+challenge	1
+decline	1
+life quality	1
+viral hydrolase	0
+efficient replication	2
+comparable	0
+mutant	1
+ptms	0
+encode protein	1
+proteolytic function	1
+marylation	2
+ribosylation marylation	1
+mono adp-55	1
+substrate	1
+suffer	0
+acute phase	2
+hydrolase activity	0
+inhibition	4
+conflict	1
+complement	0
+support	2
+mode	0
+essential	0
+ribosylation	1
+regulation	4
+translational ptms	1
+chikv replication	4
+elaborate	0
+chronic rheumatism	1
+chikv patient	1
+protein nsp1-nsp4	0
+chikv	3
+individual nsps	1
+subset	0
+intracellular ribosyltransferase	1
+interfere	0
+need	7
+artd10	0
+nsp2	1
+pathogen interface	1
+protein function	1
+macrodomain	1
+chikv infection	4
+catalytic manner	1
+multifacete strategy	0
+restriction factor	0
+adp-27 ribosylhydrolase	1
+dependent marylation	1
+chikv mono	0
+certain virus	1
+ancient ptm	1
+fieldwe	1
+february	0
+severe case	2
+add	0
+sars.methodsdata	1
+ncp case	2
+rt	1
+r0	0
+vary dynamic	0
+basic number	1
+abstractrationaleseveral study	1
+government	0
+rigorous measure	1
+nuclear event	1
+mrna regulation	1
+validation	1
+link	3
+immunoprecipitation	0
+drosophila ovary	1
+couple	0
+mass spectrometry	2
+splicing factor	0
+rbps	0
+maternal transcript	1
+purify	0
+bait	4
+future study	1
+mrna localization	1
+additional partner	0
+foundation	1
+physiological level	1
+metazoan	1
+analysis	12
+interaction network	1
+mechanism	9
+translational regulation	0
+maternal relie	1
+component	1
+machinery	1
+enzymatic detection	0
+selective detection	1
+pair	0
+level sensitivity	1
+emergent threat	0
+biological fluid	1
+reconfigure	0
+adaptable	0
+∼24-hour time	1
+quick detection	0
+minimal infrastructure	1
+assay	7
+detection	13
+viral rna	4
+isothermal amplification	0
+sample step	3
+specific virus	4
+related virus	1
+virus outbreak	0
+recent threat	3
+difficulty	0
+dna nanoswitche	2
+platform	0
+attomole level	1
+rna extraction	0
+cost	1
+model system	1
+point	2
+care	3
+perform	0
+key history	1
+global spread	1
+traveller screening	1
+remain uncertainty	0
+base policy	1
+expect impact	1
+traveller	2
+measure	7
+interest	4
+success	0
+factor	12
+case assumption	1
+failure	1
+infected traveller	1
+screening	2
+screen program	0
+stakeholder	1
+different program	1
+available	0
+interactive use	1
+ncov	1
+reliance	0
+pharmacologic intervention	1
+health behavior	0
+test	1
+significant difference	2
+speed	4
+viral interval	1
+significant outbreak	0
+zoonotic virus	1
+remove	0
+susceptible population	1
+infected individual	2
+hospitalization dsoh	0
+correlate	0
+mean rate	0
+metric	1
+day	2
+maintain	0
+emerge infection	2
+lack	7
+effective drug	1
+epidemic week	1
+movement	1
+migration	0
+spread period	1
+matlab experiment	1
+key individual	1
+early stage	3
+e-status.interpretationthe result	0
+relevant measure	1
+prevention	6
+international expert	1
+discover	0
+summarybackgroundthe	2
+exist	0
+province	1
+seird model	1
+control	4
+predicting	1
+snapshot	2
+infection node	2
+information	10
+rumor	2
+key issue	1
+dynamic analysis	0
+pay	0
+viral marketing	0
+attention	2
+researcher	3
+state	2
+art	1
+experimental result	0
+synthetic network	1
+propose	1
+transportation	1
+festival rush	0
+potential pattern	1
+timely evaluation	0
+initial phase	1
+case isolation	1
+major impact	0
+future trend	1
+comparable transmissibility	0
+integrated intervention	0
+quick diagnosis	2
+border	1
+chinese epidemic	1
+similar site	1
+severe symptom	0
+key residue	0
+bind pocket	1
+mpro	1
+available medicine	2
+rapid pandemic	0
+hope	2
+candidate drug	0
+computational approach	0
+case incidence	1
+late december	0
+pneumonia case	1
+plausible number	0
+midwestern farm	1
+hpai	2
+large outbreak	1
+hpai outbreak	3
+geographic factor	0
+extensive factor	1
+midwestern premise	1
+epidemiological information	0
+evolutionary model	1
+represent	0
+embed	0
+phylogenetic framework	1
+viral transition	1
+group factor	1
+transition	1
+propagation	0
+hpai case	1
+epidemiological model	2
+premise	2
+hpai sequence	1
+dynamic	1
+barrier	0
+sustainable	0
+poultry industry	3
+different type	2
+midwestern industry	1
+crystal structure	0
+bind motif	3
+effective vaccine	1
+swine	2
+divide	0
+nsp9-tmp9	2
+1502 complex	1
+prrsv epitope	0
+strong immunogenicity	1
+integrated approach	2
+important virus	1
+alanine scanning	0
+nsp9-tmp9 peptide	1
+psla-1	0
+nsp9-tmp9 conformation	2
+live vaccine	2
+turn	1
+p3	1
+predict peptide	1
+blank group	0
+restrict epitope	0
+spf swine	1
+typical strain	0
+potential epitope	2
+glycoprotein complex	0
+pleomorphic virus	1
+critical role	0
+antibody	11
+immune complex	2
+structural understanding	1
+antibody interaction	1
+dynamic nature	1
+recent advance	2
+fundamental map	0
+improve	1
+molecular mechanism	1
+mediate neutralization	1
+virion	2
+base platform	0
+understanding	5
+valuable information	0
+base design	1
+future development	2
+structural study	0
+review	15
+macromolecular complex	0
+powerful technique	2
+different state	1
+icosahedral virus	1
+viral shell	1
+routine approach	1
+viral structure	1
+form	1
+multiple tissue	6
+glycogen metabolism	1
+intermediate	0
+eqtl effect	1
+distinct effect	1
+pik3c2 g	2
+tissue	11
+transcription profile	1
+variable rate	1
+specific mechanism	1
+complexity	2
+measurement	0
+gene expression	4
+differ	0
+regulatory element	3
+allelic effect	1
+transcription factor	1
+local eqtl	0
+cross population	1
+mediation analysis	0
+causal model	0
+distal regulation	1
+genetic variation	1
+overlap	0
+transcriptional dynamic	1
+accessible chromatin	1
+correspond	0
+interplay	0
+cellular entry	0
+mer cov	4
+soluble protein	0
+binding	3
+s glycoprotein	1
+context	4
+k267e	1
+public database	1
+atomic level	1
+peptidase	1
+respective mutation	1
+resolve	0
+target cell	2
+syndrome cov	1
+cov s	0
+authentic cov	1
+occur polymorphism	1
+cov spike	1
+s protein	5
+compatible	0
+robust expression	1
+mer development	0
+infected patient	2
+early response	1
+pathogenic effect	1
+influenza virus	5
+mpsc	2
+reduce replication	0
+cytoplasm	1
+susceptible	0
+tissue damage	1
+significant increase	2
+study mouse	1
+generate	0
+low titer	3
+nucleoprotein aggregation	0
+capability	1
+summary	2
+differentiate	0
+downstream cell	1
+alveolar cell	2
+pulmonary cell	2
+modulate	0
+immune response	4
+psc	1
+ubiquitination	3
+protein profiling	1
+deubiquitinate enzyme	1
+ubiquitin ligase	2
+key process	0
+protein peptide	0
+base probe	2
+subclass	0
+enzyme	4
+division	1
+discuss	0
+ubiquitin machinery	1
+act	0
+tandem	1
+key	0
+optimal function	1
+important enzyme	0
+complex system	0
+compelling strategy	1
+mutate scaffold	0
+different approach	1
+ubiquitination status	1
+coordinated approach	1
+health challenge	1
+practical implementation	1
+strategy	3
+successful outcome	1
+useful study	0
+health approach	2
+strong advocacy	0
+emerge pathogen	1
+emerge zoonosis	1
+add value	1
+share knowledge	1
+connected disease	0
+great threat	1
+capitalize	0
+health	2
+human animal	1
+achieve	0
+program	3
+coordination	8
+local level	1
+formal implementation	1
+global challenge	1
+potential link	0
+absorptive enterocyte	1
+villous atrophy	2
+find	0
+tgev replication	1
+mucin secretion	1
+initial invasion	2
+aminopeptidase receptor	1
+virus tgev	1
+tgev	4
+paneth decrease	0
+notch factor	1
+exploit	0
+therapeutic application	1
+disrupt	0
+infect jejunum	1
+detailed pathway	0
+encode inactivation	1
+notch	2
+great infection	0
+jejunum	2
+intestinal homeostasis	0
+tgev infection	4
+ros generation	0
+cell function	0
+lgr5	1
+induce differentiation	0
+self renewal	1
+mitochondrial damage	0
+igg transcytosis	0
+enhance	0
+signal pathway	4
+tgev protein	5
+mucosal immunity	0
+viral stimulation	1
+fcrn expression	1
+tgf β	2
+il-8 β	0
+α production	0
+central region	0
+clarify	0
+regulate expression	2
+κb signal	0
+viral invasion	0
+overall immunity	1
+fcrn activity	0
+mucosal surface	1
+fatal diarrhea	0
+porcine coronavirus	1
+fcrn activation	1
+fcrn	1
+piglet	8
+mediate fcrn	1
+different population	1
+similar	0
+lower lrti	1
+asthma	6
+child	12
+asthmatic subject	0
+hmpv	3
+rt pcr	0
+rhinovirus	1
+degree	2
+base study	1
+background severity	1
+birth	3
+asthmatic mother	1
+mortality rate	1
+2	1
+difference	5
+severity	1
+specific interaction	0
+maternal asthma	1
+age	3
+hmpv 0.23	0
+% patient	1
+increase risk	1
+odd ratio	1
+hmpv infection	1
+decision analysis	1
+planning	1
+infectious pandemic	1
+freya shearer	0
+author	3
+standard care	1
+placebo	2
+combination therapy	1
+hospitalized patient	1
+treat	1
+combination	6
+confirm mer	1
+analysis plan	0
+miracle trial	1
+randomize trial	0
+mer treatment	1
+trial infection	3
+aim	4
+principle	0
+primary analysis	1
+intention	0
+arabian peninsula	0
+respiratory mer	1
+healthcare worker	2
+hospital	6
+negative conversion	1
+polymerase test	1
+temporary room	1
+standard room	1
+equip	0
+standard equipment	1
+expose patient	0
+emergency surgery	1
+related document	1
+convert	0
+refer	0
+relate patient	2
+operative procedure	2
+unexpected outbreak	1
+interview	1
+notice	0
+confirm patient	1
+specific event	1
+experience	3
+pa	0
+anteroom	1
+main room	1
+surgery	1
+prevention measure	0
+surgical procedure	1
+mer outbreak	1
+share	0
+conservative approach	2
+devise	0
+mer transmission	0
+institutional guideline	0
+multidisciplinary team	1
+new antibody	0
+recent success	1
+new method	1
+b sorting	1
+poverty	1
+immuno oncology	1
+significant expansion	0
+number	16
+passive immunization	1
+month	2
+protection	7
+systematic identification	0
+humanized mouse	1
+perception	1
+high cost	2
+assumption	3
+discovery	1
+quality antibody	1
+mabs	0
+single dose	1
+new mab	2
+viral disease	2
+new medicine	1
+effective option	1
+expression yield	1
+play	0
+type	6
+hiv	0
+congenital malformation	1
+attenuated rzikv	0
+cdna clone	2
+devoid	0
+confound factor	2
+high alert	1
+recent outbreak	5
+barré syndrome	0
+reverse approach	1
+generation	2
+complexe	0
+transfection reagent	2
+novel	0
+place	1
+different route	0
+cytomegalovirus promoter	1
+vitro system	1
+recover	0
+intraperitoneal inoculation	1
+remain	0
+second passage	1
+way	5
+future	2
+significant impact	0
+human health	5
+single inoculation	0
+public official	0
+possibility	0
+mild illness	0
+adult	3
+zikv	2
+bear member	1
+flaviviridae family	2
+direct delivery	1
+infectious rzikv	1
+rzikv	1
+clinical sign	3
+biology	0
+new technology	2
+lethal challenge	1
+reverse genetic	0
+zikv viremia	0
+bacterial chromosome	2
+suitable platform	0
+small plaque	1
+defective mutant	2
+aspect	0
+cov	1
+induction	4
+infectious virion	0
+eic	0
+induce induction	0
+defective phenotype	1
+reduce	0
+transmembrane tmd	0
+recombinant ribvs	1
+ibv eic	1
+comparable level	0
+eic mutant	1
+restore	0
+critical	0
+virion morphogenesis	1
+take	4
+compensatory mutation	1
+putative mutation	0
+ribvs	1
+putative revertant	1
+synthesis	1
+parental control	1
+virion release	0
+culture supernatant	1
+low level	0
+cell culture	1
+viral fitness	1
+well identification	1
+transmission event	1
+variability	0
+g protein	1
+complete sequence	4
+hmpv strain	1
+genome sequencing	0
+hmpv group	2
+wide analysis	0
+congruence	1
+genetic pattern	0
+available genome	1
+codon position	1
+genomic characterization	0
+african patient	1
+acute illness	1
+young child	1
+examine	1
+addition	8
+subgroup	1
+possible	0
+genomic sequence	2
+clinical sample	4
+important cause	1
+diversity	2
+novel genome	1
+amino level	0
+base method	0
+respiratory disease	5
+severe influenza	0
+small intestine	1
+js-2017 lesion	2
+acute diarrhea	0
+immunohistochemical staining	0
+intestinal mucosa	1
+normal piglet	1
+strain js-2017	1
+immunological change	1
+fcrn mrna	1
+fcrn pigr	1
+inoculate piglet	1
+pathogenicity	1
+infected piglet	2
+deltacorononirus infection	1
+old piglet	1
+identical	0
+pdcov strain	2
+pig industry	1
+economic loss	0
+pigr	0
+viral antigen	2
+antiviral response	5
+future direction	0
+field	4
+damage response	0
+unique set	1
+flight	1
+predict	0
+new host	2
+disease fever	0
+healthy bat	1
+recent year	5
+filovirus paramyxovirus	1
+viral spillover	0
+knowledge	6
+virus propagation	0
+current understanding	0
+antiviral gene	1
+virus replication	3
+produce	0
+cn	3
+cns entry	1
+receptor-1	0
+vivo effect	1
+ifn γ	3
+infect neuron	2
+killer cell	0
+determine	0
+sinv	1
+alphavirus infection	1
+important component	0
+type mouse	1
+intracranial infection	1
+local development	0
+system cn	1
+impaired clearance	1
+few cell	0
+reactivation	0
+viral synthesis	1
+sinv clearance	1
+available literature	2
+poultry	5
+patchy	0
+virus diversity	1
+respiratory virome	0
+study livestock	1
+background	6
+metagenomic study	2
+cattle poultry	1
+virome	5
+small ruminant	1
+viruse virus	1
+essential metadata	2
+capacity	2
+mng	2
+deep understanding	1
+livestock virome	1
+coverage	0
+crucial	0
+known virus	0
+mention	0
+combine	0
+majority	0
+emerge disease	9
+pig	6
+viral mng	0
+include	0
+control condition	2
+shipment	2
+stability	0
+human blood	2
+magnetic nanotrap	1
+particle h	1
+virus coronavirus	0
+multiple pathogen	3
+viral detection	2
+veev	3
+nt particle	4
+veev capsid	1
+detectable level	0
+infectious veev	1
+diagnostic lab	1
+infected blood	2
+sample integrity	1
+identification	4
+diagnosis	5
+valley virus	0
+c.	0
+incubate	0
+induce disease	1
+human sample	1
+nt treatment	1
+temperature	2
+blood	2
+ship	0
+veev protein	1
+c3h mouse	0
+live strain	1
+modern technique	1
+elevated temperature	1
+later point	0
+acid	1
+testing	1
+academic laboratory	1
+european archive	0
+control material	2
+enormous capacity	1
+sars cov	0
+workflow	2
+assay exclusivity	1
+rely	0
+close relatedness	1
+emerge coronavirus	2
+national network	1
+confirm	0
+synthetic technology	1
+robust methodology	0
+conclusion	14
+public laboratory	1
+respiratory virus	15
+health setting	1
+australian context	1
+appendix	0
+example model	1
+fig	1
+manuscript case	1
+antiviral model	0
+pandemic influenza	1
+agreement	0
+rise	0
+variety	2
+protein interaction	0
+negative function	1
+mouse model	0
+relate specie	1
+considerable difference	1
+irrespective	0
+enzymatic activity	1
+usp18 function	1
+potential strategy	1
+obtain	0
+therapeutic strategy	2
+modulator	0
+existing system	1
+isg15	0
+major protease	2
+broad repertoire	1
+fatal interferonopathie	0
+physiological function	1
+translational potential	0
+pathogenic response	1
+ifn effector	1
+key role	0
+cellular process	3
+model organism	1
+translational perspective	1
+usp18	1
+exert function	0
+free form	1
+mechanism system	1
+conjugation	0
+high rate	3
+chemical probe	0
+critical regulator	0
+ifn response	1
+proteasomal degradation	1
+isgylation	0
+protein ubl	1
+cascade	1
+product	2
+term	4
+process	3
+induce case	1
+part	2
+deep approach	1
+pool	1
+investigate sample	1
+rabie	1
+multiple haplotype	1
+distribution	1
+wildlife	1
+distinct combination	0
+comprehensive analysis	1
+viral population	1
+segregation	0
+base analysis	1
+generate set	2
+select variant	1
+consensus population	1
+genetic diversity	2
+attenuate strain	1
+investigate vaccine	1
+genetic selection	1
+nasal wash	0
+common virus	2
+pediatric patient	3
+specimen	6
+cancer patient	2
+main cause	0
+complication	2
+respiratory infection	8
+bone patient	1
+participation	1
+childhood	3
+general view	0
+respiratory illness	3
+recovery rate	0
+encounter	0
+discrepancy	0
+prevalent agent	1
+frequent type	0
+bronchoalveolar lavage	2
+underlie condition	1
+viral agent	2
+sulfate salt	0
+novel prodrug	1
+potent	0
+vitro activity	2
+inhibit	1
+polymerase	0
+active at-9010	1
+ongoing development	0
+favorable attribute	1
+active	0
+variant	1
+deliver	0
+liver	1
+difficult population	2
+sustain rate	1
+ec	3
+treatment duration	0
+hepatocyte	0
+multiple specie	1
+high level	2
+at-9010	1
+clinical isolate	0
+potent antiviral	1
+half life	1
+hcv daa	1
+hcv strain	0
+give	0
+rat	1
+panel	2
+prodrug	1
+svr rate	0
+availability	0
+predominant metabolite	2
+laboratory strain	1
+potency	2
+protective efficacy	0
+rational development	1
+new vaccine	1
+exist knowledge	0
+epidemiology virology	0
+cause virus	1
+license	0
+case rate	1
+immune correlate	0
+hfrs	2
+light	1
+summarize	0
+large extent	1
+hantavirus hcps	0
+transmit virus	1
+shed	0
+important effect	1
+zikv infection	8
+zikv modulation	1
+pharmacological targeting	0
+affected protein	1
+zikv interaction	1
+belong	0
+flavivirus genus	1
+subcellular localization	1
+promising sign	1
+series	6
+arbovirus	0
+congenital abnormality	1
+host organism	1
+medical attention	1
+clinical feature	1
+translocon	0
+viral replication	8
+severe sequela	1
+underlying mechanism	2
+follow	1
+publish observation	1
+early	0
+pathogenic strain	2
+lymphocyte	5
+dln organization	1
+disruption	2
+dln	5
+phenotype	1
+beautiful set	0
+mechanistic study	1
+depletion	2
+gr-1 cell	1
+overall disorganization	2
+multiple area	1
+genetic experiment	1
+accumulation	1
+monocyte	3
+diagnostic	2
+swine enteropathogen	1
+react	0
+n3 truncation	2
+low similarity	0
+pdcov sequence	2
+conserve	0
+choose	0
+depth examination	1
+core component	0
+pdcov	6
+pedv demonstrate	0
+partial overlap	0
+monoclonal	1
+reactivity	2
+4e88	0
+amino acid	1
+4e88 epitope	1
+epitope	4
+high affinity	0
+n protein	5
+locate	0
+synthetic peptide	1
+surface	2
+ep-4e88 sequence	1
+significant candidate	0
+monoclonal mab	1
+note	1
+cleavage site	2
+s2 subunit	1
+fip	2
+blueprint	2
+structural insight	2
+responsible	0
+1/4	0
+specific composition	1
+total mass	1
+unique conformation	2
+effective treatment	2
+alphacoronavirus	2
+protein structure	0
+distinct feature	0
+s1 subunit	0
+host recognition	1
+glycosylation	3
+cryoelectron structure	0
+serotype	2
+better understanding	1
+% rate	0
+block	0
+accumulation organization	1
+viral hindrance	1
+infiltrate monocyte	0
+ino	1
+b response	1
+acute arthritis	1
+b activation	1
+specific response	1
+important pathogen	3
+recruitment	0
+site	4
+viral dln	1
+impair organization	1
+influx	0
+wt mouse	1
+related genome	1
+strand	0
+beta sheet	2
+alpha helix	3
+trace	0
+basis	2
+hunt	0
+animal source	1
+virus genome	1
+mysterious outbreak	1
+atypical pneumonia	1
+new orf8	2
+secrete protein	0
+announce	0
+week	4
+phylogenetic tree	0
+b membrane	1
+origin	1
+novel betacoronavirus	1
+learn	0
+external subdomain	0
+spike	2
+encode	1
+identity	0
+relate coronaviruse	1
+diagnostic strategy	1
+transmission mechanism	1
+prevalence	1
+determinant factor	1
+adenovirus	7
+specie	4
+promiscuous behavior	1
+geographic distance	1
+general trend	0
+different	0
+locality	3
+immunosuppressing consequence	1
+mating season	1
+contact	0
+eg harem	1
+contrary	0
+stable strategy	1
+account	1
+host adenovirus	3
+iberian species	0
+high prevalence	1
+testosterone	1
+important reservoir	0
+phylogenetic relationship	0
+transmission dynamic	0
+great number	1
+recent screening	1
+strained virus	1
+bat specie	2
+strong system	0
+characteristic trait	1
+host trait	1
+association	4
+sensitivity	4
+threat	3
+initial detection	3
+different clade	1
+reverse qpcr	0
+h5nx virus	2
+field study	0
+2.3.4.4	0
+apply	0
+simultaneous detection	1
+h5 hpai	1
+novel set	2
+poultry farm	1
+different subtype	1
+primer set	1
+useful	0
+laboratory diagnosis	1
+multiplex assay	3
+clade	2
+classic protocol	5
+ii stability	0
+lyophilization pp	0
+predefine concentration	2
+preparation	1
+oligonucleotide primer	1
+list	1
+publish assay	1
+shipping	0
+copy specimen	1
+formulation validation	2
+laboratory	1
+charge	1
+delay result	0
+human error	3
+iii stability	0
+action chikv	0
+prepared reagent	0
+reference method	0
+direct diagnosis	1
+single tube	1
+routine activity	1
+cold chain	1
+technique	3
+novel assay	1
+invalid series	1
+ii solution	1
+advantage	1
+conclusion pp	1
+lyoph pp	2
+week sensitivity	1
+preparer formulation	1
+step	2
+effective presence	1
+distinct virus	2
+implication	0
+clinical setting	1
+clinical manifestation	2
+cat	5
+relate	0
+taxonomical classification	1
+distinct outcome	1
+different serotype	1
+fcov	1
+differentiation	2
+new concept	2
+genetic characteristic	0
+serological variant	1
+distinct difference	0
+complex agent	1
+low diversity	0
+unique view	0
+dynamic change	1
+rapid defence	1
+possible mechanism	1
+e protein	2
+analyse	0
+clearance	2
+antibody response	3
+pcr cloning	3
+repertoire	3
+bind antibody	3
+neonatal abnormality	0
+bear flavivirus	2
+mrna transcript	1
+dramatic expansion	0
+rapid response	2
+bind	1
+enlist	0
+certain gene	1
+zikv protein	1
+generation ng	0
+chain	3
+disorder	0
+important measure	0
+severeness	1
+estimation	0
+growth rate	1
+fitting	1
+epidemic curve	2
+decay	0
+limited number	1
+datum point	1
+initial rate	0
+maximum method	1
+choice	3
+simple model	1
+measurable level	0
+cytotoxicity	2
+selective toxicity	1
+multiple assay	1
+nhc	4
+slight decrease	1
+ϳ20 %	1
+polrmt	0
+incorporation	1
+indicate	0
+cell line	3
+mitochondrial number	3
+nucleotide analog	0
+mitochondrial polrmt	2
+nhc concentration	1
+% value	2
+similar cytotoxicity	0
+hepg2 cell	2
+substantial toxicity	1
+% concentration	0
+pc-3 cell	2
+corresponding increase	0
+extracellular level	1
+mitochondrial rnas	0
+mitochondrial inhibition	1
+crabtree effect	1
+main contributor	1
+nascent chain	1
+cem cell	2
+mitochondrial function	0
+mitochondrial toxicity	0
+free medium	1
+competitive substrate	0
+encode polymerase	1
+ͼ100 m	0
+blotting	0
+recombinant enzyme	2
+correlation coefficient	0
+kinetic study	0
+casein substrate	3
+e-64	0
+% inhibition	1
+conclusive nature	0
+architecture structure	0
+predict model	1
+hepatitis hev	1
+cleavage	1
+appearance	1
+sf21 cell	1
+specific epitope	2
+immunofluorescence	0
+structural enzyme	2
+pregnant woman	3
+km	0
+recombinant lead	1
+spite	1
+characteristic	0
+like protease	1
+e. coli	0
+different ion	1
+dependent polymerase	1
+structural residue	1
+native form	1
+fulminant drug	1
+arrangement	1
+validate	0
+silico analysis	1
+old adult	5
+vaccination	13
+previous season	2
+increase number	3
+ve	1
+observational study	0
+vaccinate	0
+current season	1
+stratify	0
+previous history	1
+misclassification	1
+current status	1
+positive	0
+regardless	0
+ontario canada	0
+confirm influenza	4
+season	5
+current ve	0
+repeat vaccination	1
+correct	0
+adjust ve	0
+dwell adult	1
+effectiveness ve	0
+receive	0
+recommend	0
+affect area	1
+high risk	1
+travel restriction	0
+air travel	1
+importation	1
+case importation	1
+infectious disease	13
+microorganism	1
+dysregulation	2
+misfolded accumulation	1
+stress	2
+innate response	5
+major organelle	0
+protein folding	1
+upr	3
+important role	1
+unfolded response	1
+activate	0
+er stress	0
+homeostasis apoptosis	0
+cellular function	1
+innate concentration	1
+influence	0
+causative bacteria	1
+magnetite mnps	1
+simple bioassay	1
+frequent disease	0
+dairy industry	1
+phase protein	2
+emitted radiation	1
+count	2
+modify mnps	1
+µg	1
+quantitative detection	3
+sensitive detection	1
+stage diagnosis	0
+associated disease	1
+haptoglobin	1
+standardized kit	2
+present performance	1
+initiate	0
+farm economy	1
+healthy mastitis	0
+impossible	0
+conventional manner	1
+main advantage	0
+presented concept	1
+precise treatment	3
+1	1
+like activity	0
+scheme	1
+early detection	3
+mastitis	1
+neurological disorder	0
+ie	2
+real sample	1
+positive influence	0
+depict	0
+dissimilar quality	0
+diagnostic biomarker	0
+staggering loss	1
+result complex	1
+ovarian cancer	0
+limit	1
+bovine haptoglobin	1
+individual health	0
+relevant concentration	1
+apart	2
+bacterial infection	3
+lung sample	1
+possible importance	0
+overall identity	0
+publish nidoviruse	1
+unbiased lead	0
+diseased animal	1
+ball python	1
+nidovirus detection	3
+different snake	1
+new aspect	0
+nidovirus infection	1
+reconvalescence	0
+python	2
+nidoviral sequence	1
+nidoviruse	2
+publication nidoviruse	2
+metagenome result	0
+developed qpcr	1
+vary potential	1
+typical sign	0
+snake	2
+captive collection	1
+green python	1
+high load	1
+method pneumonia	1
+stomatitis	1
+routine workup	1
+snake nidoviruse	1
+healthy control	1
+diseased reptile	1
+new sequence	0
+organ tissue	0
+dead animal	1
+total	7
+clinical individual	1
+tiger python	0
+background pneumonia	1
+nurse preparedness	0
+future event	3
+novelty	0
+overarch theme	1
+work	6
+public hospital	1
+attitude	0
+qualitative approach	0
+emerge situation	2
+forefront	1
+emergency nurse	4
+risk appraisal	0
+department context	1
+behaviour	0
+abbreviation	1
+situate	0
+press challenge	0
+global health	1
+situation	2
+nurse perception	1
+health response	1
+hong kong	0
+successful lavs	2
+mice	0
+system	10
+important innovation	0
+human history	1
+empirical manner	1
+endeavor	1
+past contribution	0
+potent immunogenicity	0
+induce immunity	0
+roadblock	1
+million	1
+suitable model	2
+human response	0
+life	2
+immunological mechanism	1
+engraft	0
+past lav	1
+ie mouse	1
+rational design	0
+innovative strategy	1
+human system	1
+histological examination	2
+airflow	0
+rounded shape	1
+theory	2
+possible factor	1
+sudden death	4
+old female	2
+haemorrhage retropharyngeal	0
+lethal complication	3
+tonsillar hypertrophy	2
+significant role	0
+asphyxial death	2
+pharynx	0
+tonsil	2
+start	1
+airway obstruction	1
+palatine tonsil	1
+mechanical impediment	1
+breathing	1
+thorough examination	0
+laryngo pharynx	1
+common feature	0
+viral tonsillitis	1
+tonsillitis	1
+diagnose	0
+acute tonsillitis	1
+second morning	1
+background tonsillitis	0
+associate hypertrophy	1
+acute inflammation	2
+gasp	0
+air	1
+enlarge tonsil	1
+palatine hypertrophy	0
+infant	6
+enlarge structure	1
+purple discoloration	0
+mucosa	1
+prominent hyperplasia	0
+early hour	1
+epiglottal edema	1
+course	1
+vicinity	1
+narrow	0
+upper airway	1
+bed	1
+inflamed tonsil	0
+mucosal swelling	1
+collapse	1
+epiglottis	1
+careful examination	1
+oral antibiotic	1
+disseminate sepsis	0
+aryepiglottic membrane	1
+infancy	1
+sign	1
+upper obstruction	1
+protect	0
+common disease	0
+innate manipulation	0
+egfp	1
+decipher	0
+promote replication	0
+stimulation	1
+dna virus	2
+aquatic virus	1
+practical method	1
+broad tropism	0
+dpv infection	1
+innate evasion	0
+dpv	3
+tropism infection	0
+immune inhibition	0
+aquatic animal	3
+essential role	2
+innate immunity	1
+innate assay	0
+basal level	0
+innate molecule	1
+virulent strain	2
+defs neuron	2
+representative pathogen	1
+innate inhibition	1
+effectiveness	3
+antiviral drug	1
+aerial bird	0
+virulent	1
+inhibited infection	0
+gross lesion	0
+blockage	1
+cell model	1
+macrophage	1
+low	0
+def	1
+organ tropism	1
+important model	0
+important factor	2
+ebov cycle	2
+individual aspect	1
+host interaction	1
+bind domain	1
+nxf1	4
+interaction	4
+ebov	3
+severe outbreak	0
+virus ebov	1
+nxf1 complex	0
+replicate	0
+cytoplasmic body	1
+major component	0
+mrna pathway	2
+novel function	0
+interact	0
+limited knowledge	1
+cellular factor	1
+accumulate	0
+derive body	1
+viral fever	1
+export	0
+necessary	0
+viral expression	1
+np	1
+viral mrna	1
+recruit	0
+inclusion body	1
+export factor	0
+wide screen	1
+compete	0
+rna	1
+nuclear stage	0
+viral protein	3
+coding expression	2
+recent improvement	1
+database	2
+considerable boost	0
+single molecule	0
+organism	1
+important transcript	0
+lineage specification	1
+observation	1
+purpose	2
+contrast	1
+code rna	1
+cell analysis	2
+class	1
+small percentage	0
+transcript	1
+lncrna function	1
+derive	0
+transcription variability	1
+new finding	0
+prevalent area	1
+physician	1
+aware	0
+atypical feature	1
+cirrhotic patient	1
+endemic region	1
+immunological test	1
+necropsy	0
+vl	2
+atypical lesion	1
+usual feature	1
+positive result	1
+standard tool	1
+unexpected finding	0
+leishmaniasis	1
+leishmaniasis diagnosis	1
+measure monitoring	0
+poverty alleviation	2
+affordability	0
+consolidation	2
+major improvement	0
+provision	1
+basic need	1
+special reference	2
+dual burden	1
+accessibility	1
+poor promotion	1
+coherent effort	1
+multiple scheme	1
+upgrading	0
+well condition	1
+past people	1
+end	3
+year programme	2
+chinese government	0
+enhanced productivity	1
+financial support	1
+relate alleviation	2
+health professional	1
+sdgs	0
+direction	2
+health target	0
+regard	4
+average	0
+thank	1
+health service	1
+new programme	0
+lesson	1
+achievement	1
+inform tool	2
+province china	0
+complicate identification	1
+infect person	1
+prehospital clinic	1
+stratify system	1
+rise number	1
+ebola virus	3
+classify	0
+initial assessment	1
+infectious agent	1
+airborne isolation	1
+provider	0
+manage person	1
+eastern country	1
+management	1
+symptom	4
+travel correspond	0
+beginning	1
+high volume	1
+modification	0
+clinician	0
+modify tool	1
+travel	1
+epidemiological factor	1
+confirmation	2
+suspect person	1
+conceive	0
+affected area	1
+3i tool	1
+cysteine protease	1
+robust response	4
+molecular animal	1
+cd8 cell	3
+stage antigen	0
+specific cell	3
+partial success	0
+single vaccine	1
+antigen csp	0
+stage	2
+plasmodium specie	1
+challenge experiment	1
+profilin pfn	2
+delivery	1
+plasmid	1
+vaccine component	0
+malaria infection	1
+stage disease	1
+export protein	2
+ls antigens	0
+malaria vaccine	1
+subgenotype c3	1
+i507	0
+pseudotyped virus	3
+new c3	1
+segregate	0
+know subgenotype	1
+unique mutation	2
+l mutation	0
+prototype virus	1
+common cold	1
+severe pneumonia	1
+enhanced entry	0
+coronavirus nl63	2
+b	0
+continuous mutation	0
+hcov nl63	1
+nl63 case	1
+host cell	3
+severe infection	3
+i507 l	1
+guangzhou china	0
+2018	0
+reproduction r	1
+growth model	0
+lf datum	1
+spatial heterogeneity	0
+different region	4
+quantify	0
+reproduction number	2
+linear model	2
+lag term	1
+different model	1
+rainfall	1
+different period	1
+saharan africa	0
+important fever	2
+mm increase	1
+2018–19	0
+epidemiological feature	0
+past month	1
+clear evidence	0
+rainfall impact	1
+severe threat	0
+lf epidemic	2
+rs	0
+average rainfall	1
+unprecedented epidemic	0
+lf	2
+significant heterogeneity	0
+r.	1
+sell drug	0
+predominant class	1
+therapeutic drug	1
+pharmaceutical market	1
+late trend	0
+therapeutic antibody	1
+billion	0
+global market	2
+1986	0
+monoclonal antibody	2
+new drug	1
+administration	0
+explosive growth	0
+antibody drug	1
+preeminent technology	1
+pilot program	4
+catarrhalis rhinovirus	0
+event	3
+establish	0
+health facility	4
+public event	1
+reporting	1
+event‐based ebs	0
+yaoundé facility	1
+partner organization	1
+linkage	0
+surveillance system	2
+methods ministry	1
+partnership	1
+pilot	1
+health staff	0
+surveillance implementation	1
+important	0
+three‐quarter	0
+2017	0
+astute clinician	2
+workshop	1
+emerge outbreak	1
+immediate reporting	0
+routine bacteria	0
+primary network	0
+high ador	0
+year	4
+interval cis	0
+performance	5
+significant predictor	0
+predictive definition	0
+age group	0
+retrospective study	0
+comorbiditie	1
+accord	0
+virus type	1
+fever	2
+influenza case	1
+primary system	1
+report case	1
+overall profile	0
+hospitalise case	1
+fatality	1
+indicative	0
+main agent	1
+aptamer	2
+selective feature	2
+strand dna	1
+brief history	1
+aptamer development	1
+resistant complication	1
+aptamer application	1
+drug delivery	1
+bacterial toxin	1
+talented tool	0
+aptamer definition	0
+delivery system	0
+promising activity	3
+human defense	1
+grow rate	0
+new treatment	0
+pathogen invasion	0
+microbial infection	2
+diverse strategy	0
+immune system	1
+technology	2
+coinfection mpv	1
+clinical outcome	0
+rapid diagnosis	3
+traditional test	0
+detection rate	2
+neonate	1
+common cause	2
+quarter	2
+positive specimen	1
+accurate detection	1
+coinfecte	0
+virus culture	0
+% 92/357	1
+future application	1
+pcr	2
+diagnostic technology	1
+tract rti	0
+prevalent	0
+respiratory specimen	1
+low rate	1
+coinfection	1
+viral etiology	0
+antibiotic	3
+lead pathogen	1
+tendency	4
+specific gene	1
+community	2
+new strategy	0
+vitamin d	1
+create	0
+later asthma	1
+severe wheezing	1
+important trigger	0
+asthma exacerbation	1
+nutritional deficiency	0
+exposure	9
+lead agent	0
+bronchiolitis	3
+asthma development	1
+inflammatory mechanism	1
+prevalent pathogen	1
+well understanding	0
+risk factor	5
+viral factor	1
+th2-biase environment	0
+viral illness	1
+induce exacerbation	0
+inflammation corticosteroid	0
+biased microbiome	0
+stand	0
+effective replication	0
+breathing difficulty	1
+antibody palivizumab	1
+interferon response	1
+diffusion modeling	1
+base model	3
+social learning	0
+individual judgement	2
+diffusion	0
+awareness	1
+intelligent learning	4
+decision	4
+mix	2
+drive learning	1
+individual learning	1
+social interaction	2
+cope strategy	1
+collective learning	3
+popularity	0
+research agenda	1
+domain	1
+gradient	1
+base group	0
+communicate	0
+natural hazard	1
+risk spread	1
+base modeling	1
+methodological approach	2
+protective measure	3
+exist prevalent	0
+learning	0
+core mechanism	1
+myriad	1
+modern society	1
+explore	0
+machine learning	0
+majority vote	1
+prominent	0
+cope	0
+model society	1
+group learning	0
+collective process	0
+technological disruption	0
+environmental system	1
+accommodate	0
+diffusion process	1
+colostrum milk	1
+transfer	1
+dam	4
+passive immunity	2
+inject	0
+different vaccine	2
+commercial vaccine	1
+bohv-1	1
+administrate	0
+intranasal route	1
+calf	11
+serum sample	3
+newborn calf	1
+calving	2
+good response	0
+pregnant cattle	1
+immunise	0
+pcd180	0
+different time	1
+antiviral efficacy	0
+global attention	1
+safety profile	0
+montelukast	3
+integrity	0
+consideration	0
+protective activity	1
+asthmatic montelukast	2
+neurological sequelae	0
+severe complication	1
+high profile	0
+zika infection	1
+essential reid	0
+complete workflow	2
+ton	1
+transmit disease	1
+distance	1
+diagnosed subject	1
+infect group	0
+diagnose patient	0
+communicable disease	1
+different camera	1
+risk group	0
+automatic method	1
+infection risk	0
+capture video	1
+spatial knowledge	0
+capture environment	1
+close interaction	1
+high accuracy	1
+labor cost	0
+tasking framework	1
+record video	1
+address	0
+shortfall	0
+african country	2
+score	2
+guideline	1
+datum quality	0
+establish system	1
+attribute	2
+reliant	0
+external fund	2
+simplicity	0
+acceptability	2
+datum reliability	1
+evaluate attribute	1
+increase cost	1
+zambia	0
+evaluation	3
+remote site	1
+outcome	1
+stability score	0
+review period	1
+indicator	2
+influenza surveillance	1
+310000	0
+annum	1
+overall score	0
+iss	1
+national fund	1
+logistical complexity	0
+center	0
+scale	1
+identified weakness	2
+calculation	1
+key improvement	1
+key strength	0
+timeliness	1
+sample shipment	1
+representativeness	0
+stability utility	1
+past decade	2
+influenza system	1
+policy making	1
+quality	0
+percentage	1
+ligase activity	1
+trim41	2
+vsv infection	2
+identifie	0
+family rhabdoviridae	1
+viral nucleoprotein	1
+. overexpression	0
+degradation	3
+host defense	1
+susceptibility	2
+ligase protein	1
+nucleoprotein n	0
+viral transcription	1
+viral restriction	1
+proteasome	1
+μm	0
+5′-triphosphate	1
+%	3
+attract	0
+quality factor	1
+pcnc sensor	1
+promising platform	1
+lab	0
+chip	1
+integrate array	1
+multiplexed sensing	1
+single nanoparticle	1
+free detection	1
+sense ability	1
+nanoscale object	1
+particular crucial	0
+nanoscale sensing	1
+develop device	1
+photonic sensor	0
+great attention	1
+ultrahigh figure	0
+merit	1
+ultrahigh sensitivity	1
+good integrability	0
+circuit	1
+kingdom	0
+pulmonary function	0
+prophylactic rdv	1
+viral load	0
+prophylactic ifnb	1
+vivo evidence	1
+cov infection	2
+therapeutic ifnb	1
+rdv	1
+9.632	0
+disclose	0
+care response	1
+disclosure	0
+segment model	0
+interrupted series	1
+cov case	1
+korean ministry	0
+welfare website	1
+june	0
+respiratory patient	1
+future threat	1
+admit	0
+unfold threat	2
+shortage	0
+resource	1
+qualitative study	0
+infectious expert	1
+realistic chance	0
+unexpected case	1
+phase	1
+communication	0
+specific activity	2
+infectious outbreak	4
+reach	0
+likelihood	1
+increase threat	1
+standardized system	3
+patient staff	0
+global crisis	1
+group discussion	1
+phase system	4
+preparedness activity	0
+curative institution	1
+preparedness system	1
+institutional preparedness	0
+infectious threat	2
+centralized care	0
+consensus	1
+discussion result	0
+preparedness	0
+n	0
+phase green	0
+preparedness phase	1
+nature	1
+lignans	2
+antiviral discovery	1
+diverse property	1
+natural product	2
+example	3
+plant specie	0
+phenylpropanoid unit	0
+core scaffold	1
+venereal wart	0
+lignan	0
+comprehensive summary	0
+structural similarity	0
+structural classification	1
+antiviral lignan	1
+mer candidate	0
+potential antibody	1
+positive particle	1
+immunological efficacy	0
+vaccine candidate	2
+theoretical basis	0
+future selection	1
+earlier response	1
+animal model	1
+alternative platform	1
+cov development	1
+particle	5
+high response	1
+humoral response	2
+specific pathogen	1
+vaccine platform	1
+different platform	1
+cellular immunity	1
+acute disease	0
+low dose	1
+c mouse	3
+great potential	0
+gem	0
+base candidate	1
+tremendous diversity	1
+malignant cell	0
+vaccine strategy	1
+repertoire analysis	1
+b repertoire	1
+inform	0
+bacteria	0
+recombination	0
+different segment	1
+somatic mutation	2
+antibody repertoire	1
+plant	7
+biological activity	2
+extensive review	0
+epiphytic plant	1
+traditional use	1
+medicine	3
+lead compound	0
+secondary metabolite	2
+indigenous people	2
+worthy	0
+exploration	2
+align	0
+alkaloid	0
+alphavirus	0
+positive sample	3
+viral acid	1
+virus particle	0
+detection study	2
+% concordance	0
+proficiency panel	2
+probe	0
+appropriate management	0
+single primer	0
+intact	2
+viral particle	2
+expect result	1
+low limit	0
+outbreak situation	1
+significant morbidity	0
+diverse group	2
+sensitive method	1
+novel technology	0
+viral assay	1
+pcr assay	1
+viral strain	1
+mortality	7
+flavivirus	0
+capable	0
+family identification	1
+alpha- virus	0
+encounter strain	1
+synthetic construct	0
+principal	1
+cross reactivity	1
+flavivirus component	1
+promising approach	0
+neutralize antibody	2
+gp hiv	2
+horse	1
+vlp	5
+immunoglobulin	1
+sudv	3
+produce sudv	0
+vlps	2
+license vaccine	1
+frequency	0
+1976	0
+therapeutic effect	0
+sudv horse	1
+severe fever	1
+gp	0
+sf9 cell	1
+emulsify	0
+freund	1
+sudv infection	1
+sera	0
+montanide isa	0
+immunization	1
+vp40	0
+immunize	0
+emergency administration	0
+experimental drug	1
+insect cell	1
+nano	0
+fuse	0
+ambient temperature	2
+electricity	1
+biomaterial	1
+rapid production	0
+foreign protein	0
+develop country	2
+particle system	0
+thermostability	2
+immunological property	0
+adjuvant result	1
+microparticle	0
+contain	0
+excellent method	0
+adjuvant effect	0
+polyhedrin aggregate	1
+antigen	0
+position	0
+centrifugation	0
+carrying system	0
+beneficial	0
+formation	1
+vrcs	1
+replicate virus	1
+viral process	2
+composition	1
+benefit	1
+host process	1
+nucleus	2
+ubiquitous virus	1
+membraneless assembly	1
+spatial organization	1
+encompass	0
+acute pathogen	1
+pertinent	0
+ongoing area	0
+compartment	0
+traveler	2
+high incidence	1
+low country	2
+come	0
+high country	1
+epidemiology	0
+enterica typhi	0
+foodborne disease	2
+drug strain	0
+clinical management	0
+delay diagnosis	1
+travel advice	1
+practice	5
+endemic setting	1
+surveillance activity	1
+susceptible strain	1
+international attention	1
+rapid release	0
+virology community	1
+chinese virologist	1
+genome sequence	2
+increase transparency	0
+disease reporting	1
+curb	0
+datum sharing	0
+international colleague	1
+africa america	0
+new group	1
+inoculation	1
+mosquito cell	1
+diverse range	1
+mammalian cell	2
+vertical assertion	0
+mesonivirus genus	0
+thermal condition	1
+arthropod vector	1
+well knowledge	0
+virus prevalence	1
+male individual	1
+mesoniviruse	1
+viral infectivity	0
+dual infection	1
+senegal africa	0
+mesonivirus infection	0
+mesoniviridae family	1
+host restriction	1
+potential agent	0
+vector population	1
+polyclonal antiserum	2
+recombinant protein	1
+promising target	0
+major target	0
+major epitope	0
+ctd region	3
+immunodominant region	0
+rabbit	1
+novel threat	1
+terminal domain	0
+subunit acid	1
+pdcov infection	2
+e. system	0
+effective therapy	1
+activity study	1
+leading structure	0
+derivative	1
+diverse virus	3
+mammalian culture	1
+straightforward synthesis	1
+6d	3
+novel d	1
+relevant bioactivity	0
+effective	0
+herpe virus	1
+imidazo21-bthiazole	1
+dissemination	1
+advice	3
+local datum	0
+national datum	1
+diagnosis investigation	1
+appropriate advice	1
+young people	0
+objective epilepsy	1
+input	0
+special interest	1
+large trust	1
+psychiatric comorbiditie	1
+service	0
+carbamazepine	1
+little evidence	0
+consultant paediatrician	1
+professional input	0
+epilepsy	4
+tertiary centre	1
+assessment classification	0
+access	0
+epilepsy nurse	1
+specialist nurse	1
+epileptic patient	1
+effective service	1
+appropriate assessment	1
+physical activity	0
+water safety	0
+increase dose	2
+uvc uv‐platelet	1
+theraflex uv‐platelet	2
+theraflex light	1
+dose	2
+sars‐cov cchfv	1
+log	0
+theraflex system	1
+material	4
+niv	0
+method product	2
+plasma	1
+potential threat	0
+transfusion safety	1
+platelet concentrate	3
+background virus	1
+three‐fourth	1
+fourth	0
+cm2	1
+residual infectivity	1
+illumination	1
+smart hydrogel	1
+owe	0
+sufficient biodegradability	1
+innovative gel	0
+nanotechnology	2
+substantial consideration	0
+property	4
+endow	0
+manuscript	1
+base hydrogel	1
+sense application	1
+sol	0
+gel	2
+dna hydrogel	1
+offer	0
+tailor	0
+tissue sensor	1
+recognition capability	1
+undergo	0
+word	1
+crucial prerequisite	0
+different trigger	1
+different kind	1
+alternation	0
+physicochemical behavior	1
+polymer network	1
+functional motif	1
+switchable transition	0
+future landscape	1
+chemical stimulus	1
+comprehensive discussion	1
+base material	1
+insert	0
+country guideline	1
+recognition	1
+acute involvement	1
+hygiene	1
+ipc precaution	1
+area definition	1
+search	3
+family caregiver	1
+ipc strategy	1
+information center	1
+website	1
+healthcare arrangement	1
+cultural value	1
+criterion	1
+ipc measure	1
+caregiver	1
+carer	1
+ipc guideline	1
+care activity	1
+health care	2
+infection prevention	1
+guide	1
+education	3
+cultural influence	1
+family member	3
+asian country	1
+conduct	0
+healthcare accommodate	0
+reflection	0
+policy	1
+target country	1
+policy development	1
+acute setting	1
+different culture	0
+care arrangement	1
+undertake	0
+scholar web	0
+science	1
+patient family	1
+mean	0
+patient involvement	1
+ipc program	1
+familial involvement	0
+inpatient care	1
+western country	1
+livestock	2
+large animal	5
+farming	1
+crispr application	2
+pathway	4
+grow demand	3
+food	1
+genome editing	1
+disruptive biotechnology	0
+crispr era	1
+desire animal	0
+biomedicine	0
+increase efficiency	2
+main issue	1
+late advance	0
+livestock production	0
+time- project	0
+crispr	1
+control welfare	0
+main refinement	1
+easy journey	0
+good approach	0
+environment	2
+production microinjection	1
+index	0
+strong correlation	2
+report hospital	1
+case number	1
+climatic factor	0
+australia	0
+low rainfall	1
+cpv infection	2
+significant factor	1
+disadvantage	1
+report number	1
+remote area	1
+national survey	1
+economic index	1
+case occurrence	1
+canid	1
+canine parvovirus	1
+euthanasia	1
+variable temperature	1
+hot month	1
+euthanize	0
+treatment p	1
+associate euthanasia	0
+potential compound	1
+suggestive class	1
+report activity	0
+categorize information	1
+major area	1
+construction	0
+medicinal plant	6
+vitro study	2
+eg web	1
+science scopu	1
+important constituent	1
+phytochemical	1
+limited information	1
+pharmacological activity	2
+assesse	0
+gap	0
+modern	0
+important medicine	0
+c. serrata	0
+safety	0
+future trial	2
+supportive use	1
+historical use	1
+e.g. tree	0
+activity efficacy	0
+proper validation	0
+significant mortality	1
+cap vap	1
+new opportunity	2
+syndromic testing	2
+antibiotic stewardship	1
+target therapy	1
+patient outcome	0
+pitfall	0
+rapid testing	1
+care service	1
+huge expense	0
+new strain	0
+diseased cattle	1
+describe idvs	1
+distinguish	0
+d idv	1
+careful use	2
+influenza prediction	1
+subtropical region	1
+multiple variable	1
+rr	0
+flu	2
+tropical zone	1
+abstract study	2
+complex relationship	0
+seasonal influenza	1
+complex association	1
+meteorological variable	1
+climate variability	1
+wv	2
+b transmission	0
+climate variable	1
+authority	0
+high rr	0
+peaking	0
+autoimmune disease	1
+select compound	1
+appropriate power	0
+develop model	1
+generate model	2
+affinity	0
+identify compound	1
+current work	1
+analogue	3
+receptor	6
+virtual screening	0
+chemical library	1
+agonistic activity	2
+thiazolidin-4-one derivative	1
+predictivity	1
+auto reactivity	0
+suitable candidate	0
+immune cell	2
+receptor agonist	2
+target tissue	1
+potential entity	0
+internal acc	1
+potential use	3
+current study	2
+high potency	1
+variable n1	1
+internalization	0
+chronic dermatitis	1
+histopathologic examination	1
+epidemiological role	0
+l. infection	3
+western blot	0
+leishmania antibody	2
+pcr culture	0
+nicolle medium	1
+immunoreactivity	1
+kda fraction	1
+region spain	0
+domestic ferret	2
+l. dna	0
+positive isolation	1
+pet furo	1
+ferret	1
+papular lesion	2
+finding ferret	1
+link test	0
+increase transferase	0
+abnormal result	1
+future investigation	1
+blood sample	3
+right pinna	0
+infantum infection	1
+virology	1
+abstract resident	0
+care lctfs	1
+resident	1
+ltcfs	0
+large trial	3
+acute infection	3
+ltcf setting	1
+reverse reaction	0
+comprehensive assessment	0
+virus composition	1
+transport medium	1
+χ2	0
+respiratory panel	1
+metapneumovirus respiratory	0
+influenza b	1
+syncytial virus	0
+high morbidity	2
+residual swab	1
+staff	1
+nasal speciman	2
+rapid ridt	0
+nasal swab	2
+surveillance	3
+feasibility substudy	1
+simple approach	1
+2017‒2018	0
+ridt	0
+pyrazolone analogue	3
+multiple target	1
+medicinal chemist	1
+relationship investigation	1
+prospect	0
+different point	2
+overall retrospect	0
+pyrazolone derivative	1
+plenty	1
+critical element	0
+medicinal feature	2
+like candidate	0
+conclusion detection	1
+high number	2
+morbidity	3
+identify virus	2
+large number	1
+parv4	1
+strong association	1
+sari case	2
+common agent	1
+sari	1
+objective	2
+case study	1
+result parv4	1
+time pcr	0
+regular lattice	1
+focal player	1
+imperfect vaccination	0
+new framework	1
+vaccination strategy	1
+relative cost	0
+susceptible individual	1
+public hygienic	1
+myopic rule	6
+structured population	2
+imperfect behavior	0
+fraction	0
+vaccine efficacy	2
+periodic disease	1
+disease outbreak	1
+extensive simulation	1
+cycle	1
+intriguing topic	0
+abstract	1
+invalid transportation	1
+inoculate	0
+vaccinated individual	1
+sensitive	0
+heterogeneous network	1
+perceive vaccination	0
+perceive one	1
+great loss	1
+conception	1
+artificial insemination	3
+infected cow	2
+n. seroprevalence	0
+dairy cattle	1
+cattle	3
+retention	0
+fetal membrane	1
+abortion	1
+assess	0
+northern region	1
+infertility issue	1
+neospora antibody	1
+know history	1
+holstein	0
+intermediate host	1
+abstract infection	1
+farmer	2
+infertility problem	1
+location	5
+ph sensor	1
+r hemagglutnin	2
+condition	1
+endosome	1
+undergoe	1
+striking change	0
+chain conformation	3
+repulsion	1
+conserved ha1-h18	0
+buffer	1
+low ph	0
+conformational change	2
+observed change	0
+ha1-h38 conformation	1
+protonation event	1
+ph effect	0
+soak	0
+different pattern	1
+ibv circulate	0
+phcovs	4
+phylogenetic analysis	2
+coronaviruse phcov	0
+great similarity	1
+different outbreak	2
+s1 gene	1
+relationship	7
+pheasant	3
+adaption	1
+commercial pheasant	1
+severe sign	1
+chicken embryo	1
+obvious difference	0
+abstract virus	4
+hypothesis	2
+phcov	1
+substitution	1
+different tropism	1
+antigenicity	1
+specific region	1
+chicken	6
+uk	0
+s1 fragment	1
+multiple gene	1
+intestine	1
+epithelial change	1
+feasibility	0
+dimensional enteroid	5
+stem crypt	1
+l. pathogenesis	0
+traditional culture	1
+l. intracellularis	0
+healthy pig	1
+compromise	0
+diarrhea	3
+swine enteroid	1
+accurate model	1
+ileum	1
+independent experiment	1
+intestinal constitution	1
+intestinal crypt	1
+vitro model	0
+enteroid culture	1
+histopathologic finding	1
+probable role	0
+ocular disease	1
+general basis	0
+involvement	2
+relate degeneration	1
+biological process	1
+secrete adipokine	3
+online version	1
+multiple sclerosis	0
+signaling cascade	1
+lipocalin-2 lcn-2	1
+cancer diabete	0
+obesity	0
+supplementary material	1
+period	1
+market decline	1
+conflict evidence	1
+recent study	2
+heterogeneous restriction	1
+negative impact	0
+conditional skewness	1
+market growth	1
+different condition	1
+display library	1
+specific nanobodie	1
+bvdv protein	1
+bvdv replication	1
+nb1	1
+mdbk line	1
+nanobody	1
+variable domain	1
+significant loss	0
+bvdv	1
+novel drug	3
+bvdv infection	1
+huge pressure	0
+agricultural production	1
+cattle industry	1
+2014	0
+experimental infection	0
+km22	1
+clinical infection	2
+ideal target	0
+therapeutic vaccine	2
+functional inhibition	1
+papillomaviruse hpv	1
+vivo analysis	1
+major type	1
+vivo approach	1
+physicochemical property	1
+linear epitope	1
+modeling	1
+3d structure	1
+oncoprotein	1
+mixture	0
+risk hpv	1
+silico datum	1
+design construct	2
+allergenicity	1
+peptide construct	0
+bioinformatic tool	1
+tc-1 cell	1
+tumor growth	1
+hpv type	1
+appreciation	1
+enterprise	1
+empirical preview	1
+bris purpose	1
+belt undertaking	1
+narrative	1
+physical manifestation	1
+chapter	3
+accretive imagery	1
+proponent	0
+vision	1
+eclectic nature	1
+pbsc	0
+direct inoculation	1
+bactrian camel	4
+shedding	1
+antibody test	1
+neutralization antibody	0
+cov antibody	7
+antibody titer	0
+antibody level	4
+s elisa	0
+spearman coefficient	1
+potential source	0
+neutralize	0
+hybrid camel	1
+total number	2
+dromedary	2
+come year	1
+timely diagnosis	1
+fluid resuscitation	2
+acute injury	0
+severe malaria	0
+major role	2
+cerebral syndrome	0
+organ support	1
+critical provider	1
+significant cause	0
+dysperfusion	0
+appropriate treatment	1
+care unit	2
+high index	0
+suspicion	1
+different stage	1
+molecule therapy	2
+moderate	0
+coronaviruse cov	1
+complainant	0
+assault	2
+deal	0
+general principle	0
+manage detainee	2
+infection control	1
+police officer	1
+working environment	1
+police custody	1
+pattern receptor	1
+particular emphasis	1
+pulmonary injury	1
+primary focus	1
+current body	2
+major finding	0
+nms	2
+particular focus	1
+direct interaction	0
+environmental exposure	1
+health effect	2
+literature	1
+related production	0
+oxidative stress	1
+nanomaterial	1
+immune modulation	1
+biological response	3
+allergy fibrosis	1
+granuloma formation	0
+inflammasome activation	0
+lipid network	1
+associate effect	1
+propose mechanism	0
+challenge limitation	1
+metagenomic sensitivity	0
+breadth	1
+target sequence	0
+available method	2
+sequencing	0
+sensitivity identification	1
+plasma sample	1
+high scope	0
+virus detection	1
+deployable	0
+sequencer	1
+titre infection	1
+retain	0
+genomic surveillance	0
+viral outbreak	1
+spiked msspe	1
+genome coverage	1
+% accuracy	0
+specific pcr	1
+additional step	1
+metagenomic mng	1
+diagnostic use	1
+spectrum detection	1
+rejection	0
+valuable tool	0
+acr	2
+transplantation	2
+distinction	0
+reference value	1
+il-8 γ	1
+unknown value	2
+surveillance bronchoscopie	1
+distinct pattern	2
+bronchoalveolar cytokine	1
+specific group	1
+term outcome	0
+transplant ltrs	1
+medical field	1
+suitable marker	0
+microbiologic finding	0
+abstract diagnosis	0
+acute rejection	1
+ifnλ4 variant	2
+successful production	0
+glycoengineering approach	1
+engineer variant	2
+transient expression	1
+type ifnλ4	1
+ifnλ4	3
+interferon lambda	1
+mammalian line	1
+poor expression	1
+clinical potential	1
+coli version	0
+ifnλ4 eifnλ4	1
+immunological role	0
+basic research	2
+improved expression	0
+receptor activity	0
+significant amount	0
+recombinant	1
+hamper	0
+utilize	0
+model structure	0
+ifnλ4 complex	1
+antiviral level	0
+gene isg	1
+severe pathogenicity	0
+tahy	1
+polypeptide	0
+typical site	1
+kidney	5
+diseased chicken	1
+multifocal necrosis	1
+renal tubule	1
+cilia sloughing	1
+epithelial cell	3
+dead bird	1
+trachea	2
+like type	1
+% mortality	1
+protective effect	1
+depression	0
+field virus	1
+simplex	2
+curve analysis	0
+excellent sensitivity	1
+genome comparison	1
+vaccine marker	1
+distinct peak	0
+huge loss	0
+genotype circulate	0
+give area	1
+field strain	2
+contagious virus	1
+different genotype	1
+like field	1
+protection rely	0
+sybrgreen assay	0
+qx vaccine	1
+genotype	2
+interruption	0
+immunosuppressive derivative	0
+hcov-229e replication	1
+concentrate	0
+like structure	1
+distribute	0
+cellular cyclophilin	1
+possible candidate	0
+derivative compound	1
+hcov infection	1
+cypa inhibitor	0
+inhibitory potential	0
+inevitable	0
+genome encapsidation	1
+inhibit replication	0
+academic level	1
+purification	1
+development perspective	0
+antiviral area	1
+cellulose matrix	1
+manufacture	1
+particular attention	1
+adsorbent	1
+survey	0
+dominant position	0
+®	1
+safe vaccine	1
+new ligand	2
+available resin	1
+polysaccharide adsorbent	1
+different mode	1
+viral safety	0
+biopharmaceutical	1
+chromatography technique	1
+removal process	0
+particulate resin	1
+fight	1
+stock	1
+biopharmaceutical product	1
+significant threat	0
+base medium	1
+renal disease	2
+avian disease	1
+underlie etiology	1
+adaptation	2
+supportive care	1
+painful joint	1
+analgesia	1
+immunized mouse	1
+mediate response	1
+diarrhea pedv	3
+virulent challenge	1
+immunogenicity	1
+protein coe	2
+immunization experiment	0
+recombinant adenovirus	0
+week interval	1
+epitope coe	0
+pedv coe	1
+ltb coe	2
+promote	0
+labile ltb	0
+adenovirus vaccine	1
+pedv invasion	1
+hek293 cell	1
+blood vessel	1
+infection process	1
+reside	0
+significant association	1
+damage	2
+infected sample	1
+additional study	1
+certainty	1
+negative tissue	1
+viral tropism	0
+chronic disease	2
+femv	1
+originate	2
+feline colony	1
+renal tubuli	1
+tubulointerstitial tin	0
+emerge morbillivirus	1
+enrol	0
+household cat	1
+immunohistochemistry analysis	1
+tropism	1
+partial cluster	0
+kidney section	1
+epidemiological survey	1
+tin	0
+warrant	0
+urine sample	1
+colony	1
+femv genotype	0
+inflammatory cell	1
+synthetic biology	1
+selective pressure	1
+modular interaction	1
+motif mimicry	0
+critical pathway	1
+molecular mimicry	1
+protein complex	1
+viral use	0
+slim	1
+motif discovery	1
+diabetes mellitus	1
+arabia severity	0
+multiple condition	1
+hypertension	1
+severe outcome	2
+outbreak response	2
+turning point	0
+welcome progress	0
+global security	1
+professional	1
+8367	0
+international system	2
+elaboration	1
+proportion	1
+suspect influenza	1
+health scourge	0
+virological characteristic	1
+influenza season	1
+like virus	1
+laboratory confirmation	1
+influenza infection	2
+virological situation	0
+give season	1
+consist	0
+yamagata lineage	1
+verify	0
+molecular method	1
+relation	3
+peak incidence	0
+prompt commencement	0
+antiviral treatment	2
+test specimen	1
+engage	0
+causative contagion	1
+poland	0
+sharp increase	0
+predominate	0
+2066	0
+2008/2009	0
+biological specimen	1
+rapid introduction	1
+analysis vaccination	0
+median duration	0
+difficult	0
+basic precaution	2
+nursing home	3
+french home	0
+limited autonomy	1
+strict precaution	1
+realize	0
+nasal sample	1
+abstract objective	4
+precaution	2
+positive test	1
+probable resident	1
+measure identification	2
+rate	2
+unvaccinated resident	1
+median protein	1
+human outbreak	0
+probable infection	1
+low score	3
+potential platform	1
+progress	1
+important progress	0
+vlp vaccine	1
+respiratory vaccine	1
+preclinical model	1
+platform vaccine	0
+research area	1
+important article	1
+pubme	1
+seasonal virus	1
+high odd	1
+severe bronchiolitis	2
+picu admission	1
+multivariable analysis	1
+multiple infection	3
+analysis bronchioliti	1
+chain pcr	1
+conclusion infant	0
+multiviral bronchiolitis	1
+picu	1
+general unit	1
+unit admission	0
+cover	0
+thick membrane	1
+widespread	0
+dairy	1
+skip lesion	0
+abscess	1
+lymph nodes	0
+infect calf	1
+histopathologically jejunum	1
+immunohistochemistry ihc	0
+calve diarrhoea	1
+ileum immunoreaction	1
+intrinsic factor	1
+grossly lesion	2
+crypt	1
+bcov	1
+necrotic crypt	1
+colon	1
+ihc	0
+colonic mucosa	0
+embed section	1
+villi denudation	1
+mononuclear cell	1
+brov	1
+hallmark lesion	0
+enteritis	1
+agent	1
+lining epithelium	0
+brov demonstration	1
+patch	2
+shortening	1
+% case	1
+specific nature	0
+lesion	1
+include study	1
+adult subject	1
+hospitalization	2
+cochrane library	0
+systematic search	2
+adult population	2
+rsv factor	1
+infect adult	1
+like illness	1
+retrieving	1
+rsv infection	1
+rsv detection	1
+comprehensive review	0
+considerable percentage	1
+young adult	0
+conclusion datum	1
+medline lilacs	0
+publish datum	1
+elderly	1
+rsv epidemiology	1
+routine practice	0
+american country	1
+right	1
+unrestricted use	1
+fund repository	2
+covid	0
+elsevier	0
+acknowledgement	1
+original source	1
+emphasise	0
+great decrease	1
+lri mortality	5
+lris	0
+health loss	5
+% decrease	0
+lri incidence	1
+trend	0
+attribution	2
+draw	0
+global burden	1
+single intervention	1
+substantial decrease	0
+percent change	1
+air pollution	1
+pace	0
+haemophilus decrease	1
+counterfactual framework	1
+apply change	0
+362·7 death	1
+risk coverage	1
+compartmental tool	0
+incidence	2
+vaccine coverage	0
+increase coverage	1
+sociodemographic development	1
+representative survey	0
+preventable death	1
+setting	1
+disease injury	1
+interval	0
+large reduction	0
+infection mortality	1
+verbal datum	0
+1990	0
+summary background	1
+vital datum	0
+case fatality	1
+predictive tool	0
+substantial decline	0
+potential cluster	1
+european people	1
+f	1
+associate infection	1
+conclusion hcov−oc43	1
+implicate	0
+similar matrix	1
+hsct patient	1
+acid substitution	2
+define	0
+chronological datum	1
+determination	1
+common ancestor	1
+protein sequence	1
+patient sequence	1
+hcov−oc43 isolates	1
+frequent cause	0
+hospital transmission	1
+hsct recipient	1
+triage	0
+key element	0
+different level	1
+early isolation	0
+health system	1
+infer result	1
+health monitoring	2
+public space	1
+feasibility database	1
+feasibility study	1
+rate measurement	3
+ground truth	1
+reliability	0
+root	2
+digital camera	0
+tone variance	0
+distance variance	0
+art method	1
+square error	0
+variance variance	0
+computer scenario	1
+art rate	1
+monitoring scenario	1
+measure method	0
+realistic situation	1
+motion tone	0
+condemn	0
+transport	1
+farm season	2
+slaughter	3
+yard	1
+farm	4
+reason	1
+case calf	2
+keep	0
+great	0
+season duration	0
+arrival	1
+questionnaire	4
+new system	0
+select calf	1
+slaughter schedule	2
+related factor	1
+additional hour	2
+processor	1
+odd	0
+bobby duration	0
+farm factor	1
+additional week	2
+management variable	1
+veterinarian	0
+farmer operator	0
+dairy chain	1
+calf mortality	1
+bobby calf	1
+datum set	1
+premise personnel	0
+travel time	1
+restrict use	0
+ethnoveterinary knowledge	1
+skin affliction	1
+antimicrobial	2
+gn	1
+official strategy	2
+french region	1
+gastrointestinal disorder	1
+veterinary research	1
+antibiotic treatment	1
+switzerland	0
+early study	2
+knowledge frequency	1
+unique	0
+respective group	1
+broad spectrum	1
+veterinary option	1
+german speaker	0
+abstract relevance	1
+antibiotic era	1
+target category	0
+use route	1
+europaea l.	0
+neglect	0
+certain degree	1
+veterinary medicine	1
+sinensis	0
+gastrointestinal disease	2
+european medicine	1
+veterinary product	1
+animal specie	0
+french speaker	0
+dosage source	1
+earlier study	1
+clear difference	1
+detailed information	0
+plant process	1
+live lasv	1
+current therapy	0
+administration fda	2
+containment	2
+neglect pathogen	0
+clinical significance	1
+label use	2
+ribavirin	1
+febrile disease	2
+free platform	2
+base assay	1
+accurate surrogate	0
+vrnp activity	1
+significant effect	0
+ht	1
+throughput ht	1
+task	1
+unmet need	0
+combat lasv	1
+expression level	0
+reporter gene	1
+limitation	0
+quality tool	1
+expectation	1
+base system	1
+train	0
+monitoring tool	2
+environment knowledge	1
+audit	0
+organization	1
+specific need	1
+local adaptation	1
+important aspect	0
+hygiene monitor	1
+result barrier	0
+exist system	0
+previous system	0
+continuous tool	1
+ambiguity consistency	0
+modify	0
+tool time	1
+workplace	1
+control compliance	1
+care delivery	1
+human transmission	1
+uptake	0
+underlie cell	1
+iavs	2
+receptor repertoire	1
+mechanistic detail	0
+novel technique	1
+motility	1
+associate particle	1
+functional balance	1
+sialic hemagglutinin	1
+host specie	0
+virion penetration	0
+sialylate layer	1
+underappreciated role	0
+receptor balance	1
+attachment	1
+readjustment	0
+novel specie	1
+bind avidity	0
+iav particle	1
+urinary tract	1
+ferret pig	1
+diagnostic procedure	1
+clinical presentation	1
+qx rbd	2
+qx	1
+infectious bronchitis	1
+ciliated layer	1
+rbd bind	0
+render	0
+determinant	0
+kidney tropism	1
+ibv	0
+domain rbd	2
+different location	1
+increase morbidity	1
+infected animal	1
+ibv qx	0
+bind site	2
+sialic acid	1
+link immunosorbent	0
+disseminate	0
+preincubation	0
+synthetic acid	1
+substantial loss	0
+diminish quality	1
+dependent	0
+different receptor	1
+removal	2
+tract	1
+coronavirus infection	0
+different ligand	1
+prevent	0
+infectious infect	1
+extended tropism	1
+opposite side	1
+attachment protein	1
+identify receptor	1
+pathotype	1
+respiratory tract	1
+dividing	0
+follow pathotype	1
+kidney bind	0
+tissue bind	0
+hcp	0
+systematic approach	1
+select ppe	2
+fit	0
+expertise	1
+intubation	1
+ppe ensemble	1
+critique	0
+guidance	0
+care facility	0
+primary strategy	2
+transmission pathway	0
+different ensemble	1
+team	0
+personnel hcp	0
+resistant aureus	1
+functional compatibility	0
+evolutionary relationship	0
+different outcome	1
+tgev n	2
+deltacoronavirus tropism	0
+production	1
+pedv rna	1
+viral component	1
+pedv n	1
+replace	0
+pedv overexpression	0
+partial interchangeability	0
+nucleocapsid oligomerization	1
+pedv replication	1
+infectious particle	1
+pdcov n	1
+infection alter	1
+international dissemination	1
+commercial travel	1
+unanswered question	0
+robust inhibitor	0
+transmissible virus	1
+receptor rtki	0
+tyrphostin class	1
+inhibitory activity	1
+a9	3
+assay pcr	1
+downstream molecule	3
+rtki a9	1
+p38	1
+comparative analysis	1
+covs	2
+blotting assay	0
+vital clue	0
+murine pedv	0
+action	1
+dromedary camel	2
+2015–2017	0
+acquire	0
+camel	1
+antiviral examination	0
+protein change	0
+bmnpv infection	3
+a35	0
+alkaline phosphatase	1
+proteome	1
+resistance	3
+oral infection	1
+silkworm juice	3
+proteolysis starch	1
+dep	4
+digestive juice	3
+glutathione metabolism	0
+potential role	0
+bmnpv challenge	1
+midgut luman	0
+bmnpv	2
+80	1
+great impact	0
+sericulture	1
+p50	1
+serine protease	1
+independent approach	0
+important protein	1
+silkworm	1
+high inhibition	0
+potential mechanism	1
+midgut response	0
+free proteomic	1
+sucrose metabolism	0
+severe loss	0
+major pathogen	1
+current information	0
+digestive proteome	1
+high silkworm	1
+crosstalk	1
+death modality	2
+destruction	1
+intact barrier	1
+regulated form	3
+current advance	0
+membrane damage	0
+osmotic imbalance	2
+continuous race	0
+cytoplasmic swelling	0
+cell death	3
+pyroptosis	1
+hijack	1
+pattern	0
+route	0
+extracellular space	1
+abstract necroptosis	1
+distinct potential	0
+death form	1
+shrinkage formation	0
+apoptosis	1
+death pathway	1
+relevance	1
+circumstance	1
+apoptotic demise	1
+network	0
+targeted attack	0
+lytic modality	1
+bear	2
+pollution toxin	0
+security	3
+safe supply	0
+water	1
+climate change	1
+relate hazard	0
+disaster	0
+vector	2
+direct challenge	0
+wide variety	1
+host protein	1
+survival	0
+alternative approach	0
+central regulator	0
+obligate parasite	1
+hnrnpa1	2
+intracellular localization	0
+different virus	3
+stability function	0
+aid	0
+current treatment	1
+rna‐binding protein	1
+specific infection	1
+hnrnpa1 level	1
+dam nol	1
+nocd cd	1
+affect	0
+utero	1
+health status	3
+health survival	2
+daughter	4
+nocd daughter	1
+retained lameness	0
+clinical disease	2
+genetic merit	0
+production trait	2
+dairy heifer	2
+parity	5
+milk	4
+multiparous cow	1
+similar value	0
+morbidity survival	1
+digestive problem	0
+cull	0
+multiparous dam	1
+previous lactation	3
+dam nocd	1
+lactation	3
+multiparous daughter	1
+reduce performance	0
+developmental programming	0
+prim nol	1
+mult cd	1
+genotypic	0
+great merit	0
+orthogonal contrast	1
+nonlactate	0
+clinical occurrence	1
+year man	1
+confirm seropositivity	3
+human sera	0
+possible source	0
+positivity	4
+neutralization assay	1
+seropositivity	1
+elisa	0
+primary infection	1
+significant preference	1
+asymptomatic case	1
+different nationality	1
+increase trend	1
+cov seroprevalence	1
+woman	0
+general population	1
+mer exportation	0
+current evidence	1
+cov investigation	1
+healthy donor	1
+ab	0
+unrecognized source	0
+direct ifa	0
+p. jirovecii	2
+bal sample	1
+50/125	1
+assay ifa	0
+direct immunofluorescence	1
+lavage sample	1
+immunosuppresse patient	1
+rapid detection	0
+pneumocystis jirovecii	1
+pjp ifa	0
+immunosuppressed patient	1
+dot	1
+stay	1
+unnecessary usage	0
+march	0
+antimicrobial stewardship	0
+pediatric infection	1
+japanese hospital	2
+conventional rat	1
+timely treatment	1
+test rat	1
+mpcr test	1
+total cost	0
+admission	1
+mpcr period	1
+require infection	1
+therapy dot	1
+ff	0
+fit test	1
+qnft	0
+quantitative test	0
+fit factor	0
+adequacy	1
+session	2
+overall test	0
+n95 respirator	2
+respirator	2
+result participant	1
+individual exercise	2
+duration	1
+ambient particle	1
+adequate protection	0
+continuous compression	1
+group ppg	0
+bout	1
+respirator fit	1
+exercise	1
+chest compression	3
+center study	1
+timely manner	1
+ministry	0
+turkish datum	1
+202026	0
+ak microbiol	1
+climate use	2
+spatiotemporal dynamic	0
+squared value	0
+coefficient	1
+dependency	1
+tick	1
+cchf case	1
+proof	0
+concept	1
+important direction	0
+health maker	0
+prospective tool	2
+cchf dynamic	1
+normalized root	1
+crimeanecongo cchf	1
+2004	0
+settlement	1
+potential covariate	0
+geographic region	0
+monthly datum	0
+combat	0
+data	0
+utility	1
+diagnostic assay	1
+ms assay	0
+invasive infection	2
+fungal disease	1
+broad amplification	1
+growth	1
+immunocompromise population	1
+universal method	1
+riyadh arabia	0
+common source	0
+public fear	1
+agree	0
+borderline correlation	0
+high anxiety	2
+psychological distress	1
+medium speculation	1
+psychological need	0
+cov outbreak	1
+abstract background	1
+variable	1
+psychological program	0
+medical student	1
+collect datum	0
+predesigne questionnaire	2
+knowledge score	0
+cov impact	0
+student perception	1
+affect country	1
+increase report	0
+hygienic habit	1
+moderate anxiety	0
+access resource	1
+perceive sufficiency	0
+information score	1
+college	0
+specific drug	1
+dynamic process	1
+replication ability	2
+monitor	0
+central system	1
+suckle	0
+intranasal inoculation	2
+roc43-ns2delrluc	0
+reporter strain	3
+sensitive platform	3
+spinal cord	1
+viral titer	2
+different background	1
+renilla roc43-ns2delrluc	0
+bioluminescence image	0
+upper infection	0
+new insight	0
+roc43-ns2delrluc replication	0
+live mouse	3
+rluc expression	2
+temporal dissemination	1
+neuroinvasive hcovs	0
+chloroquine	1
+readout	2
+antiviral therapy	1
+protein expression	0
+considerable effort	1
+bluetooth interface	1
+base smartphone	1
+internet	0
+invest	0
+uploaded	0
+disease control	1
+dna	1
+essential tool	1
+iot system	1
+complementary cdna	0
+fever virus	1
+friendly system	2
+ribonucleic acid	0
+functional instrument	1
+thing	1
+healthcare	1
+iot	1
+miniaturized device	1
+global network	2
+send	0
+amplification	1
+healthcare center	1
+llama serum	0
+pad homologues	2
+cross reaction	1
+citrulline	1
+target protein	2
+body fluid	1
+functional change	0
+component nanobodie	1
+key mediator	1
+histone marker	1
+evs	2
+human pathology	1
+irreversible manner	2
+conserve regulator	0
+extracellular release	1
+participate	0
+cellular communication	1
+expect size	1
+protein moonlighting	1
+shock protein	0
+neutrophil formation	1
+dependent enzyme	0
+deiminase pad	1
+gene regulation	0
+deiminate protein	1
+serum	3
+key protein	2
+hitherto modification	0
+camelid specie	2
+human antibody	1
+cargo protein	1
+camelid	2
+protein hit	0
+disperse population	0
+conserve marker	1
+western blotting	1
+pct test	0
+clinical impact	4
+historical cohort	0
+high proportion	0
+% inhibitor	1
+underevaluated	0
+ed	2
+escalation	0
+antibiotic discontinuation	2
+cluster infection	0
+prospective study	1
+rapid surveillance	0
+experimental group	1
+saris	0
+old patient	3
+intravenous length	1
+rapid test	0
+hospital stay	1
+sari patient	1
+experimental cohort	1
+potential epidemic	1
+serum level	0
+secondary outcome	1
+useful strategy	0
+short duration	0
+intravenous antibiotic	1
+set	1
+pandemic outbreak	1
+nonlinear development	0
+household material	2
+new tool	0
+efficient surveillance	1
+census	1
+abstract concern	1
+regression	1
+supply	0
+great focus	0
+household infrastructure	1
+animal population	1
+sanitation	1
+2013	0
+scale coherence	0
+urban infrastructure	1
+level infrastructure	1
+construction material	0
+connection	2
+emerge eid	1
+powerful tool	2
+sanitation system	0
+agricultural census	0
+shape development	1
+secondary datum	0
+independent effect	0
+infrastructure characteristic	1
+health planner	0
+pathogenic hpai	0
+vomiting	1
+emerge coronaviru	2
+versatile messenger	1
+replenishment	0
+inhibitory effect	1
+intracellular	0
+modulates influx	1
+chelate	1
+replication step	0
+viral cycle	1
+diltiazem hydrochloride	1
+good model	0
+human head	1
+% virus	0
+foscc	3
+virocap	0
+feline virus	1
+specific primer	0
+previous study	1
+insensitive	0
+8	1
+normal mucosa	0
+targeted capture	1
+divergent	0
+known sequence	1
+hnscc	2
+positive cancer	0
+negative hnscc	1
+alphaherpesvirus	1
+catus papillomavirus-3	1
+torque virus	0
+2014–2015	0
+kong genotype	2
+inpatient	1
+subtype	1
+prevalent genotype	0
+rsv	4
+high	0
+ongoing evolution	1
+2011–2016	0
+setup	2
+reporter line	1
+virus flu	1
+multicolor analysis	1
+cellular level	1
+viral pathogenesis	1
+reveal	0
+host response	0
+respiratory pathogen	2
+microscopy	1
+valuable technique	0
+methodology	1
+inflammation	1
+imaging system	1
+infect lung	0
+protocol	1
+fluorescent antibody	1
+broad reactivity	0
+standard strain	1
+genus salmonella	1
+sal-06mab	1
+sal-06mab isotype	2
+bacteriostatic effect	0
+bacterial cell	2
+adherence	0
+antimicrobial effect	0
+scanning	1
+neutralize effect	0
+salmonella growth	1
+new possibility	0
+immunotherapy	1
+sepsis	2
+igg1	0
+negative member	0
+bacterial genera	1
+line	2
+make	0
+lymphocutaneous infection	0
+syndrome	2
+early recognition	0
+critical practitioner	1
+major morbidity	0
+develop region	1
+special precaution	0
+laboratory staff	1
+reference laboratory	1
+fluoroquinolone	1
+fulminant infection	0
+biological weapon	2
+diagnostic testing	1
+direct transmission	1
+save	0
+plague	1
+varie	1
+empiric therapy	0
+aminoglycoside	1
+overlapping	1
+exposure treatment	0
+doxycycline	1
+anthrax	1
+recombination event	3
+name	0
+healthy chicken	1
+turkey coronavirus	0
+chicken coronavirus	1
+ahysx-1	0
+fecal sample	1
+recombination analysis	1
+ultimate sink	0
+contaminant	1
+contamination	1
+aquatic environ	1
+regular monitoring	1
+overuse	0
+residential area	1
+pollutant discharge	1
+water quality	1
+lead type	0
+pollution	1
+uncontrolled water	1
+aquatic environment	1
+pesticide	1
+human activity	1
+natural capacity	0
+nearby environ	1
+perk	2
+ppv infection	2
+ppv replication	1
+numerous disease	1
+reticulum stress	1
+like perk	0
+stress sensor	2
+reproductive failure	1
+key factor	0
+apoptotic factor	1
+small rna	1
+stress activation	1
+content constraint	0
+exhibit manner	1
+random selection	1
+obey	0
+code sequence	2
+produce sequence	1
+synthetic sequence	0
+specified sequence	1
+synonymous	0
+desire content	0
+content	0
+occurrence	1
+usage	1
+transcription process	0
+codon	0
+algorithmic solution	1
+specific acid	1
+abstract identification	0
+propose tool	1
+parasite	1
+marine mammal	1
+multilocus genotyping	1
+tissue sample	1
+affect animal	1
+molecular level	2
+terrestrial animal	1
+s. meningoencephalitis	0
+domestic cat	1
+equine epm	0
+neurologic disease	0
+s. neurona	1
+clinical finding	0
+fatal case	1
+opossum sporocyst	1
+cause agent	1
+low pathogen	1
+impairment	1
+lung function	1
+manifestation	0
+cystic fibrosis	1
+chronic colonization	1
+malfunction result	0
+poor clearance	1
+thick mucus	1
+tailor strategy	0
+chronic use	1
+inhale assistance	0
+infectious complication	1
+structural damage	1
+cf patient	1
+rich milieu	1
+mucus clearance	1
+% morbidity	1
+pedv	1
+necessity	3
+candidate	1
+heavy loss	1
+jejuna	1
+produce antibody	1
+pathological examination	0
+significant atrophy	1
+severe diarrhea	1
+pork industry	1
+numerous country	1
+deletion	1
+nep-1c9 epitope	1
+conventional strain	1
+398–406	0
+seropositive	0
+bias	0
+positive direction	1
+range 0.46–0.51	0
+adjusted or	1
+basic assumption	1
+virus phenomenon	1
+control group	1
+virus interference	2
+vaccine effectiveness	0
+negative design	1
+go	0
+mixed result	0
+different group	1
+significant protection	2
+vaccination status	2
+vaccinated patient	1
+influenza vaccination	2
+adjust ratio	0
+flu virus	1
+personnel	2
+respiratory status	0
+conclusion receipt	1
+abstract purpose	1
+negative study	1
+vaccine result	0
+stranger	1
+play field	1
+political incorrectness	0
+tropical disease	1
+talk	0
+tropical case	1
+put	0
+ease	1
+key point	1
+academic presentation	1
+teaching	1
+marquee attraction	0
+legendary humor	1
+important tool	0
+base approach	0
+century	1
+common practice	0
+surveillance study	1
+nonviral sequence	1
+future outbreak	1
+target surveillance	0
+bat covs	3
+chance	1
+homologous recombination	1
+field sample	1
+unbiased sequencing	1
+preferred methodology	0
+virus discovery	1
+miss	0
+origin cov	1
+coronaviruse covs	0
+pandemic	1
+sequencing cost	1
+high diversity	1
+great diversity	0
+bat origin	1
+record	0
+terrorism attack	1
+strong impact	0
+tourist arrival	1
+2002	0
+time analysis	0
+unrestricted model	1
+terrorist attack	1
+representative group	1
+european country	2
+longitudinal study	1
+existence	0
+terrorism	1
+tourism demand	0
+infectious pathogen	1
+smallpox illness	1
+mediate damage	2
+mainstay	0
+coronavirus cov	1
+smallpox eradication	0
+critical illness	0
+regulate	0
+induce apoptosis	1
+knockdown	4
+human astrocyte	1
+veev astrocyte	2
+rescue cell	0
+upregulation	0
+increase survival	0
+neurotropic virus	1
+subsequent death	1
+department	0
+chung‐ang hospital	1
+prevalent type	0
+hpiv	1
+common diagnosis	0
+hpiv4 infection	1
+hpiv3	1
+reaction	1
+subject record	1
+croup	1
+summer	1
+hpiv type	1
+hpiv4	1
+aspirate specimen	1
+irregular pattern	1
+oxygenation	1
+arterial gas	1
+ventilate patient	1
+prone positioning	8
+minor complication	3
+fio2 ratio	3
+appropriate criterion	0
+prone	0
+past year	1
+severe syndrome4	1
+contraindication	1
+maximum	1
+significant enhancement	1
+accomplished work	0
+hour	2
+unit micu	1
+ventilator injury	0
+improvement initiative	2
+distension	3
+lung	1
+prone session	1
+major complication	2
+recruitable lung	1
+unstable	0
+ard	1
+respiratory syndrome1	1
+extracorporeal method	5
+invasive intervention	2
+figure	1
+accomplish	0
+ill patient	1
+unfavorable	0
+1st january	0
+datum collection	1
+hypoxemia	0
+quality measure	0
+dedicated class	1
+prone technique	0
+remain %	0
+physician nurse	1
+act cycle	1
+confine	0
+acute syndrome	1
+ecmo use	1
+acute asthma	1
+ventilate	1
+severe failure	1
+critical tool	2
+fatal exacerbation	1
+permit	0
+paucity	0
+management strategy	0
+difficult patient	1
+barotrauma	0
+traditional strategy	3
+volutrauma	1
+specific characteristic	1
+high pressure	2
+lung protection	0
+ecmo	3
+subsequent transactivation	0
+calcium	4
+tat escape	1
+release	0
+hiv‐associated complication	1
+tpcs	3
+novel target	0
+hiv‐1 infection	1
+selective	0
+endolysosome escape	1
+tat homeostasis	1
+hiv‐1 replication	1
+receptor‐mediated endocytosis	1
+secrete	0
+infected cell	1
+brain tat	1
+cytosolic calcium	0
+transactivation	1
+endolysosome tat	1
+plasma membrane	0
+extraordinary ability	1
+anticancer chemotherapy	1
+abnormality	0
+ct	1
+chest image	1
+hematological cancer	1
+lrti	0
+infect patient	1
+chest ray	1
+outbreak setting	1
+unknown cause	1
+notification	0
+health authority	5
+fear	1
+generate concern	1
+epidemiological link	1
+huanan market	1
+border surveillance	1
+sale	0
+live animal	1
+flask‐shaped invagination	0
+cell membrane	1
+sphingomyelin	0
+caveolin protein	1
+homeostatic level	1
+rich	0
+cholesterol	1
+primary component	0
+compartmentalization	1
+pleiotropic function	0
+caveolin‐1 cav1	1
+theragnostic value	0
+pathophysiology	1
+integral	0
+normal development	1
+orchestration	1
+healing	1
+intricate role	0
+numerous function	1
+cav1	2
+signal molecule	1
+cutaneous pathophysiologie	1
+functioning	0
+skin	1
+brain disorder	2
+exciting method	0
+neuroprotection	1
+strong evidence	0
+major involvement	1
+physiological role	1
+homeostasis regulation	1
+axis	1
+increase activation	1
+brain ras	1
+neurodegeneration	1
+brain function	1
+damaging effect	0
+oxidative apoptosis	2
+independent form	1
+strong effect	0
+numerous study	1
+ace2	0
+blocker	1
+neurodegenerative disease	1
+effective tool	1
+ras	1
+peripheral circulation	1
+neuron	1
+masr	0
+angiotensin	1
+endocrine system	1
+altered level	1
+enormous potential	1
+prss level	2
+cetuximab	3
+strong rationale	2
+cetuximab therapy	2
+prss	1
+aberrant expression	1
+extensive investigation	0
+spink1	0
+high expression	1
+poor efficacy	1
+cancer cell	1
+cancer genome	0
+prss expression	2
+metastatic cancer	1
+free survival	0
+bmsc	3
+bmsc proliferation	0
+icariin	5
+osteogenic differentiation	3
+phosphatase	2
+essential intermediary	0
+cell proliferation	0
+counting assay	1
+alp oc	2
+bone protein	1
+upregulated expression	0
+bmal1	2
+ar staining	0
+bmal1−/− bmsc	1
+osteogenic disorder	1
+bmal1 deficiency	1
+underlie	0
+cell bmsc	1
+osteogenic gene	2
+potential application	0
+runx2	0
+addition expression	1
+bmal1-bmp2	1
+toxicant	0
+matrix mineralization	1
+exon mutation	1
+valuable alternative	0
+oncogene mutation	1
+egfr mutation	1
+lamp	1
+mediate method	2
+adhere	0
+therascreen case	1
+wild type	1
+advanced therapy	1
+factor inhibitor	1
+x	1
+efficiency	0
+direct sequencing	2
+case dna	0
+19	0
+egfr	1
+egfr status	0
+resect sample	0
+adenocarcinoma mutation	1
+tumor	0
+mistrust	0
+governmental authority	1
+engagement requirement	1
+local leader	2
+vector method	0
+base argument	0
+health policy	1
+houston	0
+aerial spraying	4
+hypothetical scenario	2
+problem	0
+community consent	1
+alternative benefit	1
+toxin exposure	0
+timely notice	1
+vulnerable individual	0
+base one	1
+foresaw	0
+era	1
+community resistance	0
+spraying risk	0
+adult mosquito	0
+resonate	0
+core principle	1
+vector control	0
+objective evidence	0
+health claim	2
+communitys interest	1
+authority figure	1
+evoke	0
+community engagement	0
+larvae	0
+zika	0
+controversy	0
+grow use	1
+bear disease	0
+public measure	1
+large city	1
+international transmission	1
+specific mutation	1
+original mab	1
+rbd-43e4	0
+respiratory cov	1
+membrane fusion	0
+pseudotyped mutation	0
+antibody mab	1
+neutralize activity	0
+mab rbd-14f8	1
+pseudoviruse	1
+mab	3
+sδtm	1
+key target	0
+rbd	2
+broad activity	0
+neutralize mab	1
+∼35 mortality	1
+rare complication	4
+exist literature	0
+case report	2
+hydrocephalus	0
+neurological involvement	1
+intracerebral hemorrhage	0
+acute hydrocephalus	0
+differ approach	0
+positive bacillus	1
+increase mortality	1
+favorable outcome	1
+central infection	0
+optimal approach	1
+low percentage	1
+stable asthma	1
+exacerbation	0
+introduction pathogen	3
+immunosorbent assay	0
+periostin concentration	1
+atypical bacteria	1
+immunocap	0
+total level	1
+b positivity	1
+marker	0
+eosinophilic inflammation	1
+induce sputum	1
+chlamydophila pneumoniae	1
+airway microbiome	1
+decrease concentration	1
+fvc%	1
+elderly asthmatic	1
+supernatant	1
+pathogen rate	0
+serum protein	1
+connect	0
+asthma activity	1
+lumbar puncture	2
+potential marker	0
+total infant	1
+young infant	1
+intrinsic value	0
+febrile infant	3
+critical cause	0
+meningitis	2
+pediatric consultation	1
+emergency department	1
+mean count	1
+auc	0
+leukocyte count	1
+roc curve	1
+insufficient presentation	0
+source	0
+viability apoptosis	2
+viability	2
+metformin treatment	1
+different dose	1
+terminal jnk	0
+protein level	0
+p jnk1	1
+abolish	0
+addition overexpression	1
+regulatory effect	0
+potential effect	0
+metformin	3
+proliferative ability	0
+relative level	0
+lrp2	1
+suspension culture	0
+culture system	5
+adenovirus type	0
+vero cell	6
+production ability	1
+suspension	2
+purpose process	1
+morphological change	0
+high ability	1
+fluorescence intensity	1
+optipro medium	1
+expensive process	1
+large amount	0
+free condition	1
+vero culture	1
+adapted	0
+vero system	1
+conclusion cell	1
+grow	0
+viral production	1
+well ability	0
+commercial medium	1
+antiviral effect	1
+antiviral study	2
+h5n1-infecte treatment	2
+result mouse	5
+weight	1
+pathogenic virus	2
+h5n1 virus	2
+zirconia nps	0
+nanoparticle	1
+nm	0
+small reduction	0
+descriptive statistic	0
+random forest	0
+case n	0
+animal movement	3
+rigorous	0
+biosecurity practice	2
+gather history	0
+semen delivery	0
+positive herd	1
+general practice	3
+important variable	3
+high quantity	3
+case herd	1
+herd status	0
+final model	1
+large	0
+size	1
+canada	0
+management practice	2
+swine herd	0
+match herd	0
+primary objective	0
+herd size	1
+feed delivery	0
+ec50	3
+genotype 1–5	0
+promise	0
+oligonucleotide strategy	3
+immunoglobulin domain	6
+emphasis	1
+investigator	4
+option	3
+drug repurposing	1
+viral escape	0
+urgent need	1
+maximal breath	1
+world population	1
+potential option	2
+protective vaccine	1
+compassionate use	1
+new therapy	0
+resistant	0
+biologic	1
+fast strategy	2
+possible use	0
+potential pandemic	0
+come month	1
+ace2-fc protein	1
+potential death	0
+monoclonal therapy	0
+viral genome	0
+last immunity	0
+advocate	0
+recombinant system	1
+reproductive strain	0
+sla-11502-restricte epitope	3
+psla-11502	1
+tetrameric complex	0
+sla-11502	2
+sla-11502 complex	2
+d pocket	0
+crystallography biochemistry	0
+specific experiment	0
+hold	0
+colorado campus	2
+specific area	1
+microbial discovery	1
+new avenue	0
+19th meeting	1
+student	1
+expand	0
+behalf	1
+peak	1
+keynote presentation	1
+timely discussion	1
+microbiology	1
+host factor	3
+ideal setting	0
+seclude campus	1
+host expression	1
+multiple discussion	0
+pathology epidemiology	1
+rocky mountain	1
+social fabric	1
+meeting	1
+mountain	0
+color	1
+autumn	1
+virus transcription	1
+pandemic threat	0
+pathogen discovery	1
+c shipping	0
+critical impact	0
+high identity	0
+receptor domain	1
+novel antibody	2
+important implication	0
+rapid development	1
+trust	1
+vital	0
+proper attribution	0
+international community	1
+early sharing	1
+global alarm	1
+fatal asthma	1
+positive isolates	0
+mature cell	0
+zro2	1
