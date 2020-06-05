@@ -18,12 +18,12 @@ def fixDates(new_time):
     else:
         return ''
 
-def getAllFullTexts(metadata):
+def getAllFullTexts(metadata, savedir):
 
     list_filenames = []
     list_full_texts = []
     for filename in list(metadata['fullnames']):
-        fo = open('processed_texts/' + filename + '.txt', 'r')
+        fo = open(savedir + 'processed_texts/' + filename + '.txt', 'r')
         full_text = fo.read()
         fo.close()
 
@@ -127,7 +127,7 @@ def fixCollection(metadata, api_data, savedir):
     """
 
     #metadata = pd.read_csv('new_metadata.csv')
-    list_filenames, list_full_texts = getAllFullTexts(metadata)
+    list_filenames, list_full_texts = getAllFullTexts(savedir, metadata)
     texts_df = pd.DataFrame({'filename': list_filenames, 'text': list_full_texts})
     del list_filenames, list_full_texts
 
