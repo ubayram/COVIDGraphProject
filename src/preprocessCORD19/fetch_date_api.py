@@ -64,7 +64,7 @@ def update_dataframe(data, column_name = 'doi'):
     return data
 
 
-def main(filepath, email, column_name='doi'):
+def fetchDate(data, email="email", column_name='doi'):
     '''
     Based on a csv file, we create a dataframe, then we populate the date using the pubmed API.
     :param filepath: path of csv file that will serve as source for our dataframe
@@ -72,13 +72,15 @@ def main(filepath, email, column_name='doi'):
     :param column_name: the name of data column to use for searching in the API, default doi
     :return: file locally created with the right timestamps
     '''
-    data = pd.read_csv(filepath)
+    #data = pd.read_csv(filepath)
     Entrez.email = email
-    update_dataframe(data, column_name).to_csv('data_with_timestamps.csv')
+    return update_dataframe(data, column_name) #.to_csv('data_with_timestamps.csv')
 
+'''
 if __name__ == '__main__':
     email = "email"
     filepath = 'file_path'
     column_name = 'doi' #column name for search
     main(filepath,email, column_name)
     
+'''
