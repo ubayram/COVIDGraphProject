@@ -1,5 +1,5 @@
-# Code Adapted from Peter de Vocht's subject verb extract
-#
+# Code Adapted from Peter de Vocht's enhanced subject verb object extraction 
+# Lamia 10.06.2020
 
 ## Instructions
 
