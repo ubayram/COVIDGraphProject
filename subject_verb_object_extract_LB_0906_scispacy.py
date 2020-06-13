@@ -1,5 +1,5 @@
-# Code Adapted from Peter de Vocht's enhanced subject verb object extraction 
-# Lamia 10.06.2020
+# Code Adapted from Peter de Vocht's subject verb extract
+#
 
 ## Instructions
 
@@ -23,12 +23,14 @@ nlp = en_core_web_sm.load()
 
 # use spacy large model for NER _ set up path
 nlp_ner = spacy.load('path_to/scispacy/en_core_sci_lg-0.2.4/en_core_sci_lg/en_core_sci_lg-0.2.4')
+# nlp_ner = spacy.load('/Users/mac/anaconda3/lib/python3.7/site-packages/scispacy/en_core_sci_lg-0.2.4/en_core_sci_lg/en_core_sci_lg-0.2.4')
 
 
 # Set up stopwords
 # Need to Change the path
 path_to_stopwords = 'path_to_stopwords/nltk_stopwords.txt'
-    
+# path_to_stopwords = '/Users/mac/Documents/CodeDirectory/nltk_stopwords.txt'
+   
 with open(path_to_stopwords, 'r') as file:
     stopwords = file.readlines()
 for word in stopwords:
@@ -245,7 +247,10 @@ def printDeps(toks):
 # expand an obj / subj np using its chunk
 def expand(item, tokens, visited):
     if item.lower_ == 'that':
-        item = _get_that_resolution(tokens)
+        item_res = _get_that_resolution(tokens)
+        if type(item_res) != spacy.tokens.doc.Doc:
+            item = item_res
+
 
     parts = []
 
@@ -425,7 +430,7 @@ def create_df_sen(data, name_col = 'full_text'):
 
 
 def main():
-    all_text = "Inflammatory diseases of the respiratory tract are commonly associated with elevated production of nitric oxide (NO•) and increased indices of NO• -dependent oxidative stress."
+    all_text = "however subsequent studies pioneered by arm and coworkers have shown that in several situations pla2g5 exerts antiinflammatory functions which may rely on a common mechanism involving the regulation of macrophage phagocytosis by this spla2"
     links = extract_link(nlp(all_text))
     print(links)
 
