@@ -384,7 +384,8 @@ def get_node(token, tokens):
 
 def extract_link(sen):
     list_edges = list()
-    list_ents = nlp_ner(sen.text)
+    list_ents = nlp_ner(sen.text).ents
+    print(list_ents)
 
     preps = [tok for tok in sen if tok.pos_ == "ADP" and tok.dep_ == "prep"]    # covers the cases where a verb has no subject?
     for prep in preps:
@@ -408,7 +409,7 @@ def extract_link(sen):
                 o = ent.text
         list_res.append((s,o,v))
 
-    return [(s,o,v) for (s,o,v) in list_res if (s !='') and (o !='')]
+    return [(s,o,v) for (s,o,v) in list_res if (s !='') and (o !='') and (s != o)]
 
 # def get_sentences(curr_abstract):
 #     sentences = nltk.tokenize.sent_tokenize(curr_abstract)
@@ -430,7 +431,8 @@ def create_df_sen(data, name_col = 'full_text'):
 
 
 def main():
-    all_text = "however subsequent studies pioneered by arm and coworkers have shown that in several situations pla2g5 exerts antiinflammatory functions which may rely on a common mechanism involving the regulation of macrophage phagocytosis by this spla2"
+    # all_text = "however subsequent studies pioneered by arm and coworkers have shown that in several situations pla2g5 exerts antiinflammatory functions which may rely on a common mechanism involving the regulation of macrophage phagocytosis by this spla2"
+    all_text = 'although differences in animal housing and pathogen exposure could account for the phenotypic differences found in these studies it has been suggested that the strategies used to make the knockout mice in these studies differed and some of the th17-axis inflammatory phenotype could be due to the synthesis of a truncated trim21 form lacking its c-terminal half'
     links = extract_link(nlp(all_text))
     print(links)
 
