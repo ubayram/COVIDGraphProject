@@ -56,13 +56,15 @@ if __name__ == '__main__':
     # read the corpus
     all_data = pd.read_csv('full_cord19_texts.csv')
 
-    print('Processing before 2020')
+    print('Processing before 2020, first half')
     # list of rows where years are before 2020
     row_indices_pre = all_data[all_data['year'] < 2020].index.tolist()
+    half_index = int(len(row_indices_pre)/2)
+    row_indices_pre = row_indices_pre[:half_index]
     empty_list = []
     pd_eval = pd.DataFrame(data={'filename' : empty_list, 'list_of_edges': empty_list, 'timestamp': empty_list})
     pd_eval = collectSaveEdges(all_data, pd_eval, row_indices_pre, False)
-    pd_eval.to_csv('list_of_edges_pre2020.csv')
+    pd_eval.to_csv('list_of_edges_pre2020_first_half.csv')
     del pd_eval
 
     '''
