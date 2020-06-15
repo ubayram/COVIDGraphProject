@@ -22,13 +22,13 @@ import pandas as pd
 nlp = en_core_web_sm.load()
 
 # use spacy large model for NER _ set up path
-nlp_ner = spacy.load('path_to/scispacy/en_core_sci_lg-0.2.4/en_core_sci_lg/en_core_sci_lg-0.2.4')
+nlp_ner = spacy.load('en_core_sci_lg-0.2.4/en_core_sci_lg/en_core_sci_lg-0.2.4') # this is Ulya's path
 # nlp_ner = spacy.load('/Users/mac/anaconda3/lib/python3.7/site-packages/scispacy/en_core_sci_lg-0.2.4/en_core_sci_lg/en_core_sci_lg-0.2.4')
 
 
 # Set up stopwords
 # Need to Change the path
-path_to_stopwords = 'path_to_stopwords/nltk_stopwords.txt'
+path_to_stopwords = 'nltk_stopwords.txt' # this is Ulya's path
 # path_to_stopwords = '/Users/mac/Documents/CodeDirectory/nltk_stopwords.txt'
    
 with open(path_to_stopwords, 'r') as file:
@@ -409,13 +409,15 @@ def extract_link(sen):
                 o = ent.text
         list_res.append((s,o,v))
 
-    return [(s,o,v) for (s,o,v) in list_res if (s !='') and (o !='') and (s != o)]
+    # Ulya: I prefer receiving (node1, node2) as input, so I made this tiny modification to return only (s, o), and retiring v as it did it's task, and now deserves a vacation
+    return [(s,o) for (s,o,v) in list_res if (s !='') and (o !='') and (s != o)]
 
 # def get_sentences(curr_abstract):
 #     sentences = nltk.tokenize.sent_tokenize(curr_abstract)
 #     #cont = [sen_ for sen_ in sentences[1:]  if (sen_ != '')&(~sen_.isnumeric())]
 #     return sentences
 
+'''
 def create_df_sen(data, name_col = 'full_text'):
     list_rec = list()
     for ix, row in data.iterrows():
@@ -423,12 +425,10 @@ def create_df_sen(data, name_col = 'full_text'):
         for sen in list_sen:
             list_rec.append([row['sha'], row['fullname'], sen, row['year'], row['date']])
     
-    df = pd.DataFrame.from_records(list_records, columns = ['sha', 'fullname', 'sentence', 'year', 'date']) 
+    df = pd.DataFrame.from_records(list_rec, columns = ['sha', 'fullname', 'sentence', 'year', 'date']) 
     df['links'] = ''
     
     return df
-
-
 
 def main():
     # all_text = "however subsequent studies pioneered by arm and coworkers have shown that in several situations pla2g5 exerts antiinflammatory functions which may rely on a common mechanism involving the regulation of macrophage phagocytosis by this spla2"
@@ -438,6 +438,6 @@ def main():
 
 if __name__ == '__main__':
     main()
-
+'''
 
 
