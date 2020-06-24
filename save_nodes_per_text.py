@@ -3,6 +3,7 @@
 #
 
 import subject_verb_object_extract_LB_2406_scispacy as sci # get Lamia's code
+import help_NER_UB as help_ner
 import spacy
 import en_core_web_sm
 import pandas as pd
@@ -15,11 +16,8 @@ import nltk
 # use spacy small model
 nlp = en_core_web_sm.load()
 
-path_to_stopwords = './nltk_brown_stopwords.txt'
-        
-# Keep this block
-with open(path_to_stopwords, 'r') as file:
-    stopwords = file.readlines()
+stopwords = help_ner.getStopwords()
+
 for word in stopwords:
     nlp.vocab[word].is_stop = True
 
@@ -31,7 +29,11 @@ def cleanText(curr_text):
 def collectSaveEdges(df, pd_eval, row_indices, date_flag):
 
     for i_row in row_indices:
-        list_sentences = cleanText(df.full_text[i_row])
+        curr_text = df.full_text[i_row]
+        if not help_ner.isEnglish(curr_text): # skip non-English data rows
+            continue
+        list_sentences = cleanText(curr_text)
+        del curr_text
 
         if date_flag:
             curr_date = df.date[i_row]
@@ -44,9 +46,9 @@ def collectSaveEdges(df, pd_eval, row_indices, date_flag):
             if len(curr_sent.split(' ')) > 3: # make sure a sentence has at least 4 words - to eliminate noise
                 #print('\n'+curr_sent)
                 links = sci.extract_link(nlp(curr_sent))
-                if len(links):
-                    print(links)
-                    curr_tuples += links
+                #if len(links): # Ulya: if links returns an empty list, curr_tuples won't be affected. I'm removing this if for speed
+                #print(links)
+                curr_tuples += links
 
         #t.stop()
         pd_eval = pd_eval.append(pd.DataFrame({'filename' : df.fullname[i_row], 'list_of_edges': [curr_tuples], 'timestamp': curr_date}))
