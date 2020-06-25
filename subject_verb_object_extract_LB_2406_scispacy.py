@@ -26,7 +26,7 @@ nlp = en_core_web_sm.load()
 # use spacy large model for NER _ set up path
 # nlp_ner = spacy.load('path_to/scispacy/en_core_sci_lg-0.2.4/en_core_sci_lg/en_core_sci_lg-0.2.4')
 # nlp_ner = spacy.load('./en_core_sci_lg-0.2.4/en_core_sci_lg/en_core_sci_lg-0.2.4')
-nlp_ner = spacy.load('/Users/mac/anaconda3/lib/python3.7/site-packages/scispacy/en_core_sci_lg-0.2.4/en_core_sci_lg/en_core_sci_lg-0.2.4')
+nlp_ner = spacy.load('./en_core_sci_lg-0.2.4/en_core_sci_lg/en_core_sci_lg-0.2.4')
 
 # Set up stopwords
 # Need to Change the path
@@ -113,15 +113,15 @@ def _is_negated(tok):
 
 
 # get all the verbs on tokens with negation marker
-def _find_svs(tokens):
-    svs = []
-    verbs = [tok for tok in tokens if tok.pos_ == "VERB"]
-    for v in verbs:
-        subs, verbNegated = _get_all_subs(v)
-        if len(subs) > 0:
-            for sub in subs:
-                svs.append((sub.orth_, "!" + v.orth_ if verbNegated else v.orth_))
-    return svs
+# def _find_svs(tokens):
+#     svs = []
+#     verbs = [tok for tok in tokens if tok.pos_ == "VERB"]
+#     for v in verbs:
+#         subs, verbNegated = _get_all_subs(v)
+#         if len(subs) > 0:
+#             for sub in subs:
+#                 svs.append((sub.orth_, "!" + v.orth_ if verbNegated else v.orth_))
+#     return svs
 
 
 # get grammatical objects for a given set of dependencies (including passive sentences)
@@ -136,18 +136,18 @@ def _get_objs_from_prepositions(deps, is_pas):
 
 
 # get objects from the dependencies using the attribute dependency
-def _get_objs_from_attrs(deps, is_pas):
-    for dep in deps:
-        if dep.pos_ == "NOUN" and dep.dep_ == "attr":
-            verbs = [tok for tok in dep.rights if tok.pos_ == "VERB"]
-            if len(verbs) > 0:
-                for v in verbs:
-                    rights = list(v.rights)
-                    objs = [tok for tok in rights if tok.dep_ in OBJECTS]
-                    objs += _get_objs_from_prepositions(rights, is_pas)
-                    if len(objs) > 0:
-                        return v, objs
-    return None, None
+# def _get_objs_from_attrs(deps, is_pas):
+#     for dep in deps:
+#         if dep.pos_ == "NOUN" and dep.dep_ == "attr":
+#             verbs = [tok for tok in dep.rights if tok.pos_ == "VERB"]
+#             if len(verbs) > 0:
+#                 for v in verbs:
+#                     rights = list(v.rights)
+#                     objs = [tok for tok in rights if tok.dep_ in OBJECTS]
+#                     objs += _get_objs_from_prepositions(rights, is_pas)
+#                     if len(objs) > 0:
+#                         return v, objs
+#     return None, None
 
 
 # xcomp; open complement - verb has no suject
@@ -209,7 +209,7 @@ def _get_all_objs(v, is_pas):
     #    v = potentialNewVerb
 
     potential_new_verb, potential_new_objs = _get_obj_from_xcomp(rights, is_pas)
-    if potential_new_verb is not None and potential_new_objs is not None and len(potential_new_objs) > 0:
+    if potential_new_verb is not None and potential_new_objs is not None: #and len(potential_new_objs) > 0:
         objs+=potential_new_objs
         v = potential_new_verb
     if len(objs) > 0:
@@ -233,18 +233,18 @@ def _get_that_resolution(toks):
     return toks
 
 
-# simple stemmer using lemmas
-def _get_lemma(word: str):
-    tokens = nlp(word)
-    if len(tokens) == 1:
-        return tokens[0].lemma_
-    return word
+# # simple stemmer using lemmas
+# def _get_lemma(word: str):
+#     tokens = nlp(word)
+#     if len(tokens) == 1:
+#         return tokens[0].lemma_
+#     return word
 
 
-# print information for displaying all kinds of things of the parse tree
-def printDeps(toks):
-    for tok in toks:
-        print(tok.orth_, tok.dep_, tok.pos_, tok.head.orth_, [t.orth_ for t in tok.lefts], [t.orth_ for t in tok.rights])
+# # print information for displaying all kinds of things of the parse tree
+# def printDeps(toks):
+#     for tok in toks:
+#         print(tok.orth_, tok.dep_, tok.pos_, tok.head.orth_, [t.orth_ for t in tok.lefts], [t.orth_ for t in tok.rights])
 
 
 # expand an obj / subj np using its chunk
@@ -291,17 +291,26 @@ def to_str(tokens):
     return ' '.join([item for item in tokens])
 
 # converts scibert's dict of result into list of lists
-def transpose_list(dict_res):
-    list_items = list()
-    for key,value in dict_res.items():
-        list_items.append(value)
-    return np.array(list_items).T.tolist()
+# def transpose_list(dict_res):
+#     list_items = list()
+#     for key,value in dict_res.items():
+#         list_items.append(value)
+#     return np.array(list_items).T.tolist()
 
 def is_in_list_ents_lemma_(token, list_ents_lemma_):
     for ent in list_ents_lemma_:
         if token.lower_ in ent:
             return True
 
+def get_svo_pass(is_pas, obj,sub, tokens, visited, list_ents_lemma_):
+    o = to_str(expand(obj, tokens, visited, list_ents_lemma_))
+    s = to_str(expand(sub, tokens, visited, list_ents_lemma_))
+    
+    if is_pas:
+        return (o,s)
+    else:
+        return (s,o)
+    
 
 # find verbs and their subjects / objects to create SVOs, detect passive/active sentences
 def findSVOs(tokens, list_ents_lemma_):
@@ -322,20 +331,10 @@ def findSVOs(tokens, list_ents_lemma_):
                     for obj in objs:
                         # objNegated = _is_negated(obj)
                         if is_in_list_ents_lemma_(obj, list_ents_lemma_) or sub_bool:
-                            if is_pas:  # reverse object / subject for passive
-                                o = to_str(expand(obj, tokens, visited, list_ents_lemma_))
-                                s = to_str(expand(sub, tokens, visited, list_ents_lemma_))
-                                if len(o)*len(s)!=0:
-                                    svos.append((o,s))
-                            # svos.append((to_str(expand(obj, tokens, visited)),
-                            #                to_str(expand(sub, tokens, visited)), v2.lemma_ + ' not' if verbNegated or objNegated else v2.lemma_))
-                            else:
-                                s = to_str(expand(sub, tokens, visited, list_ents_lemma_))
-                                o = to_str(expand(obj, tokens, visited, list_ents_lemma_))
-                                if len(o)*len(s)!=0:
-                                    svos.append((s,o))
-                            # svos.append((to_str(expand(sub, tokens, visited)),
-                            #               to_str(expand(obj, tokens, visited)), v2.lemma_ + ' not' if verbNegated or objNegated else v2.lemma_))
+                            res = get_svo_pass(is_pas, obj, sub, tokens, visited, list_ents_lemma_)
+                            if res:
+                                svos.append(res)
+        
             else:
                 v, objs = _get_all_objs(v, is_pas)
                 for sub in subs:
@@ -343,28 +342,22 @@ def findSVOs(tokens, list_ents_lemma_):
                     for obj in objs:
                         if is_in_list_ents_lemma_(obj, list_ents_lemma_) or sub_bool:
                         # objNegated = _is_negated(obj)
-                            if is_pas:  # reverse object / subject for passive
-                                o = to_str(expand(obj, tokens, visited, list_ents_lemma_))
-                                s = to_str(expand(sub, tokens, visited, list_ents_lemma_))
-                                if len(o)*len(s)!=0:
-                                    svos.append((o,s))
-                            else:
-                                s = to_str(expand(sub, tokens, visited, list_ents_lemma_))
-                                o = to_str(expand(obj, tokens, visited, list_ents_lemma_))
-                                if len(o)*len(s)!=0:
-                                    svos.append((s,o))
+                            res = get_svo_pass(is_pas, obj, sub, tokens, visited, list_ents_lemma_)
+                            if res:
+                                svos.append(res)
+                     
 
 
     return svos
 
-def get_text(file, sep):
-    cont = list()
-    with open(file, 'r') as file:
-        line = file.readlines()
-    for abstr_ in line:
-        sentences = abstr_.strip().split(sep)
-        cont+=[sen_ for sen_ in sentences[1:]  if (sen_ != '')&(~sen_.isnumeric())]
-    return cont
+# def get_text(file, sep):
+#     cont = list()
+#     with open(file, 'r') as file:
+#         line = file.readlines()
+#     for abstr_ in line:
+#         sentences = abstr_.strip().split(sep)
+#         cont+=[sen_ for sen_ in sentences[1:]  if (sen_ != '')&(~sen_.isnumeric())]
+#     return cont
 
 # def extract_nodes(sentence):
 #     list_nodes = list()
@@ -445,30 +438,30 @@ def extract_link(sen):
 #     #cont = [sen_ for sen_ in sentences[1:]  if (sen_ != '')&(~sen_.isnumeric())]
 #     return sentences
 
-def create_df_sen(data, name_col = 'full_text'):
-    list_rec = list()
-    for ix, row in data.iterrows():
-        list_sen = [x for x in row[name_col].split(' . ') if x!= '']
-        for sen in list_sen:
-            list_rec.append([row['sha'], row['fullname'], sen, row['year'], row['date']])
+# def create_df_sen(data, name_col = 'full_text'):
+#     list_rec = list()
+#     for ix, row in data.iterrows():
+#         list_sen = [x for x in row[name_col].split(' . ') if x!= '']
+#         for sen in list_sen:
+#             list_rec.append([row['sha'], row['fullname'], sen, row['year'], row['date']])
     
-    df = pd.DataFrame.from_records(list_records, columns = ['sha', 'fullname', 'sentence', 'year', 'date']) 
-    df['links'] = ''
+#     df = pd.DataFrame.from_records(list_records, columns = ['sha', 'fullname', 'sentence', 'year', 'date']) 
+#     df['links'] = ''
     
-    return df
+#     return df
 
 
 
-def main():
-    all_text = "however subsequent studies pioneered by arm and coworkers have shown that in several situations pla2g5 exerts antiinflammatory functions which may rely on a common mechanism involving the regulation of macrophage phagocytosis by this spla2"
-    # all_text = 'although differences in animal housing and pathogen exposure could account for the phenotypic differences found in these studies it has been suggested that the strategies used to make the knockout mice in these studies differed and some of the th17-axis inflammatory phenotype could be due to the synthesis of a truncated trim21 form lacking its c-terminal half'
-    links = extract_link(nlp(all_text))
+# def main():
+#     all_text = "however subsequent studies pioneered by arm and coworkers have shown that in several situations pla2g5 exerts antiinflammatory functions which may rely on a common mechanism involving the regulation of macrophage phagocytosis by this spla2"
+#     # all_text = 'although differences in animal housing and pathogen exposure could account for the phenotypic differences found in these studies it has been suggested that the strategies used to make the knockout mice in these studies differed and some of the th17-axis inflammatory phenotype could be due to the synthesis of a truncated trim21 form lacking its c-terminal half'
+#     links = extract_link(nlp(all_text))
 
-    print(links)
+#     print(links)
     
 
-if __name__ == '__main__':
-    main()
+# if __name__ == '__main__':
+#     main()
 
 
 
