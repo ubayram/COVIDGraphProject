@@ -10,6 +10,7 @@ import pandas as pd
 import numpy as np
 import nltk
 #from codetiming import Timer
+import time
 
 #t = Timer()
 
@@ -42,15 +43,20 @@ def collectSaveEdges(df, pd_eval, row_indices, date_flag):
 
         curr_tuples = []
         #t.start()
+        t0 = time.time()
         for curr_sent in list_sentences:
-            if len(curr_sent.split(' ')) > 3: # make sure a sentence has at least 4 words - to eliminate noise
+            if len(curr_sent.split(' ')) > 4: # make sure a sentence has at least 4 words - to eliminate noise
                 #print('\n'+curr_sent)
+                
                 links = sci.extract_link(nlp(curr_sent))
                 #if len(links): # Ulya: if links returns an empty list, curr_tuples won't be affected. I'm removing this if for speed
-                #print(links)
+                # print(links)
                 curr_tuples += links
 
         #t.stop()
+        t1 = time.time()
+        print(t1-t0)
+                
         pd_eval = pd_eval.append(pd.DataFrame({'filename' : df.fullname[i_row], 'list_of_edges': [curr_tuples], 'timestamp': curr_date}))
         print('Processing row ' + str(i_row))
 
@@ -59,7 +65,7 @@ def collectSaveEdges(df, pd_eval, row_indices, date_flag):
 if __name__ == '__main__':
 
     # read the corpus
-    all_data = pd.read_csv('./data/full_cord19_texts.csv')
+    all_data = pd.read_csv('/Users/mac/Documents/GitHub/COVIDGraphProject/data/full_cord19_texts.csv')
 
     print('Processing before 2020, first half')
     # list of rows where years are before 2020

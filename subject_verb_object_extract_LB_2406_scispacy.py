@@ -18,14 +18,15 @@ import en_core_web_sm
 # from spacy.lang.en.stop_words import STOP_WORDS
 import nltk
 import pandas as pd
+import time
 
 # use spacy small model for POS
 nlp = en_core_web_sm.load()
 
 # use spacy large model for NER _ set up path
 # nlp_ner = spacy.load('path_to/scispacy/en_core_sci_lg-0.2.4/en_core_sci_lg/en_core_sci_lg-0.2.4')
-nlp_ner = spacy.load('./en_core_sci_lg-0.2.4/en_core_sci_lg/en_core_sci_lg-0.2.4')
-
+# nlp_ner = spacy.load('./en_core_sci_lg-0.2.4/en_core_sci_lg/en_core_sci_lg-0.2.4')
+nlp_ner = spacy.load('/Users/mac/anaconda3/lib/python3.7/site-packages/scispacy/en_core_sci_lg-0.2.4/en_core_sci_lg/en_core_sci_lg-0.2.4')
 
 # Set up stopwords
 # Need to Change the path
@@ -64,9 +65,9 @@ def _get_subs_from_conjunctions(subs):
         rights = list(sub.rights)
         rightDeps = {tok.lower_ for tok in rights}
         if contains_conj(rightDeps):
-            more_subs.extend([tok for tok in rights if tok.dep_ in SUBJECTS or tok.pos_ == "NOUN"])
+            more_subs += [tok for tok in rights if tok.dep_ in SUBJECTS or tok.pos_ == "NOUN"]
             if len(more_subs) > 0:
-                more_subs.extend(_get_subs_from_conjunctions(more_subs))
+                more_subs += _get_subs_from_conjunctions(more_subs)
     return more_subs
 
 
@@ -78,9 +79,9 @@ def _get_objs_from_conjunctions(objs):
         rights = list(obj.rights)
         rightDeps = {tok.lower_ for tok in rights}
         if contains_conj(rightDeps):
-            more_objs.extend([tok for tok in rights if tok.dep_ in OBJECTS or tok.pos_ == "NOUN"])
+            more_objs +=[tok for tok in rights if tok.dep_ in OBJECTS or tok.pos_ == "NOUN"]
             if len(more_objs) > 0:
-                more_objs.extend(_get_objs_from_conjunctions(more_objs))
+                more_objs+=_get_objs_from_conjunctions(more_objs)
     return more_objs
 
 
@@ -93,7 +94,7 @@ def _find_subs(tok):
         subs = [tok for tok in head.lefts if tok.dep_ == "SUB"]
         if len(subs) > 0:
             verb_negated = _is_negated(head)
-            subs.extend(_get_subs_from_conjunctions(subs))
+            subs+=_get_subs_from_conjunctions(subs)
             return subs, verb_negated
         elif head.head != head:
             return _find_subs(head)
@@ -128,9 +129,9 @@ def _get_objs_from_prepositions(deps, is_pas):
     objs = []
     for dep in deps:
         if dep.pos_ == "ADP" and (dep.dep_ == "prep" or (is_pas and dep.dep_ == "agent")):
-            objs.extend([tok for tok in dep.rights if tok.dep_  in OBJECTS or
+            objs+=[tok for tok in dep.rights if tok.dep_  in OBJECTS or
                          (tok.pos_ == "PRON" and tok.lower_ == "me") or
-                         (is_pas and tok.dep_ == 'pobj')])
+                         (is_pas and tok.dep_ == 'pobj')]
     return objs
 
 
@@ -143,7 +144,7 @@ def _get_objs_from_attrs(deps, is_pas):
                 for v in verbs:
                     rights = list(v.rights)
                     objs = [tok for tok in rights if tok.dep_ in OBJECTS]
-                    objs.extend(_get_objs_from_prepositions(rights, is_pas))
+                    objs += _get_objs_from_prepositions(rights, is_pas)
                     if len(objs) > 0:
                         return v, objs
     return None, None
@@ -156,7 +157,7 @@ def _get_obj_from_xcomp(deps, is_pas):
             v = dep
             rights = list(v.rights)
             objs = [tok for tok in rights if tok.dep_ in OBJECTS]
-            objs.extend(_get_objs_from_prepositions(rights, is_pas))
+            objs+=_get_objs_from_prepositions(rights, is_pas)
             if len(objs) > 0:
                 return v, objs
     return None, None
@@ -167,10 +168,10 @@ def _get_all_subs(v):
     verb_negated = _is_negated(v)
     subs = [tok for tok in v.lefts if tok.dep_ in SUBJECTS and tok.pos_ != "DET" and tok.lower_ not in STOP_WORDS]
     if len(subs) > 0:
-        subs.extend(_get_subs_from_conjunctions(subs))
+        subs+=_get_subs_from_conjunctions(subs)
     else:
         foundSubs, verb_negated = _find_subs(v)
-        subs.extend(foundSubs)
+        subs+=foundSubs
     return subs, verb_negated
 
 
@@ -200,7 +201,7 @@ def _get_all_objs(v, is_pas):
     rights = list(v.rights)
 
     objs = [tok for tok in rights if tok.dep_ in OBJECTS or (is_pas and tok.dep_ == 'pobj')]
-    objs.extend(_get_objs_from_prepositions(rights, is_pas))
+    objs+=_get_objs_from_prepositions(rights, is_pas)
 
     #potentialNewVerb, potentialNewObjs = _get_objs_from_attrs(rights)
     #if potentialNewVerb is not None and potentialNewObjs is not None and len(potentialNewObjs) > 0:
@@ -209,10 +210,10 @@ def _get_all_objs(v, is_pas):
 
     potential_new_verb, potential_new_objs = _get_obj_from_xcomp(rights, is_pas)
     if potential_new_verb is not None and potential_new_objs is not None and len(potential_new_objs) > 0:
-        objs.extend(potential_new_objs)
+        objs+=potential_new_objs
         v = potential_new_verb
     if len(objs) > 0:
-        objs.extend(_get_objs_from_conjunctions(objs))
+        objs+=_get_objs_from_conjunctions(objs)
     return v, objs
 
 
@@ -343,11 +344,15 @@ def findSVOs(tokens, list_ents_lemma_):
                         if is_in_list_ents_lemma_(obj, list_ents_lemma_) or sub_bool:
                         # objNegated = _is_negated(obj)
                             if is_pas:  # reverse object / subject for passive
-                                svos.append((to_str(expand(obj, tokens, visited, list_ents_lemma_)),
-                                          to_str(expand(sub, tokens, visited, list_ents_lemma_))))
+                                o = to_str(expand(obj, tokens, visited, list_ents_lemma_))
+                                s = to_str(expand(sub, tokens, visited, list_ents_lemma_))
+                                if len(o)*len(s)!=0:
+                                    svos.append((o,s))
                             else:
-                                svos.append((to_str(expand(sub, tokens, visited, list_ents_lemma_)),
-                                         to_str(expand(obj, tokens, visited, list_ents_lemma_))))
+                                s = to_str(expand(sub, tokens, visited, list_ents_lemma_))
+                                o = to_str(expand(obj, tokens, visited, list_ents_lemma_))
+                                if len(o)*len(s)!=0:
+                                    svos.append((s,o))
 
 
     return svos
@@ -358,7 +363,7 @@ def get_text(file, sep):
         line = file.readlines()
     for abstr_ in line:
         sentences = abstr_.strip().split(sep)
-        cont.extend([sen_ for sen_ in sentences[1:]  if (sen_ != '')&(~sen_.isnumeric())])
+        cont+=[sen_ for sen_ in sentences[1:]  if (sen_ != '')&(~sen_.isnumeric())]
     return cont
 
 # def extract_nodes(sentence):
@@ -383,7 +388,7 @@ def get_text(file, sep):
 
 
 def get_node(token, tokens, list_ents_lemma_):
-    if (not help_ner.isEnglish(token.lower_)) or (help_ner.checkEntityForNumeric(token.lower_)) or (token.lower_ in STOP_WORDS):
+    if (help_ner.checkEntityForNumeric(token.lower_)) or (token.lower_ in STOP_WORDS):
         return None
  
     
@@ -410,26 +415,28 @@ def extract_link(sen):
     list_ents_lemma_ = [e.lemma_ for e in list_ents]
     # print(list_ents_lemma_)
     
+    res = list()
 
-
-    preps = [tok for tok in sen if tok.pos_ == "ADP" and tok.dep_ == "prep"]    # covers the cases where a verb has no subject?
-    for prep in preps:
+    if len(list_ents_lemma_):
+    
+        preps = [tok for tok in sen if tok.pos_ == "ADP" and tok.dep_ == "prep"]    # covers the cases where a verb has no subject?
+        for prep in preps:
 #         lefts = [tok for tok in prep.lefts if tok.pos_ == 'NOUN']
-        left = prep.head
-        rights = [tok for tok in prep.rights if tok.pos_ == 'NOUN']
-        if len(rights)>0:
-            if is_in_list_ents_lemma_(left, list_ents_lemma_) or is_in_list_ents_lemma_(rights[0], list_ents_lemma_):
-                left_node = get_node(left,sen, list_ents_lemma_)
-                right_node = get_node(rights[0],sen, list_ents_lemma_)
-                if (left_node is not None) and (right_node is not None):
-                    list_edges.append((left_node,right_node))
-
-    list_edges.extend(findSVOs(sen, list_ents_lemma_))
-    
-    
+            left = prep.head
+            rights = [tok for tok in prep.rights if tok.pos_ == 'NOUN']
+            if len(rights)>0:
+                if is_in_list_ents_lemma_(left, list_ents_lemma_) or is_in_list_ents_lemma_(rights[0], list_ents_lemma_):
+                    left_node = get_node(left,sen, list_ents_lemma_)
+                    right_node = get_node(rights[0],sen, list_ents_lemma_)
+                    if (left_node is not None) and (right_node is not None):
+                        list_edges+= [(left_node,right_node)]
 
     
-    res = [(s,o) for (s,o) in list_edges if (s !='') and (o !='') and (s != o)]
+
+        list_edges += findSVOs(sen, list_ents_lemma_)
+
+
+        res = [(s,o) for (s,o) in list_edges if (s !='') and (o !='') and (s != o)]
     # print(res)
     return res 
 
