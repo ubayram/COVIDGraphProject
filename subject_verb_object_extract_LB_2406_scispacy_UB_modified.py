@@ -302,6 +302,7 @@ def is_in_list_ents_lemma_(token, list_ents_lemma_):
         if token.lower_ in ent:
             return True
 
+# Ulya: I've made a few modifications here to reduce the number of if conditions in the find_svo code
 def get_svo_pass(is_pas, obj,sub, tokens, list_ents_lemma_, sub_bool):
     if is_in_list_ents_lemma_(obj, list_ents_lemma_) or sub_bool:
         o = to_str(expand(obj, tokens, list_ents_lemma_))
@@ -317,6 +318,7 @@ def get_svo_pass(is_pas, obj,sub, tokens, list_ents_lemma_, sub_bool):
     else:
         return False, 0
 
+# Ulya: I've created this function to reduce the number of for loops in find_svo code
 def loop_for_objs(is_pas, sub, tokens, list_ents_lemma_, sub_bool, objs, svos):
 
     for obj in objs:
@@ -329,13 +331,13 @@ def loop_for_objs(is_pas, sub, tokens, list_ents_lemma_, sub_bool, objs, svos):
     return svos
 
 # find verbs and their subjects / objects to create SVOs, detect passive/active sentences
-def findSVOs(tokens, list_ents_lemma_):
+def findSVOs(tokens, list_ents_lemma_): # Ulya: removed visited parameter here, and from the calling functions, because they weren't using it
     svos = []
     is_pas = _is_passive(tokens)
     verbs = [tok for tok in tokens if _is_non_aux_verb(tok)]
 
     for v in verbs:
-        subs, verbNegated = _get_all_subs(v)
+        subs, verbNegated = _get_all_subs(v) #Ulya: verbNegated isn't used anywhere, so can we remove this from the functions?
         # hopefully there are subs, if not, don't examine this verb any longer
         if len(subs) > 0 :
             isConjVerb, conjV = _right_of_verb_is_conj_verb(v)
