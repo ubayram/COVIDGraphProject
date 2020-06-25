@@ -93,23 +93,23 @@ def _find_subs(tok):
     if head.pos_ == "VERB":
         subs = [tok for tok in head.lefts if tok.dep_ == "SUB"]
         if len(subs) > 0:
-            verb_negated = _is_negated(head)
+            # verb_negated = _is_negated(head)
             subs+=_get_subs_from_conjunctions(subs)
-            return subs, verb_negated
+            return subs
         elif head.head != head:
             return _find_subs(head)
     elif head.pos_ == "NOUN":
-        return [head], _is_negated(tok)
-    return [], False
+        return [head]
+    return []
 
 
-# is the tok set's left or right negated?
-def _is_negated(tok):
-    parts = list(tok.lefts) + list(tok.rights)
-    for dep in parts:
-        if dep.lower_ in NEGATIONS:
-            return True
-    return False
+# # is the tok set's left or right negated?
+# def _is_negated(tok):
+#     parts = list(tok.lefts) + list(tok.rights)
+#     for dep in parts:
+#         if dep.lower_ in NEGATIONS:
+#             return True
+#     return False
 
 
 # get all the verbs on tokens with negation marker
@@ -165,14 +165,14 @@ def _get_obj_from_xcomp(deps, is_pas):
 
 # get all functional subjects adjacent to the verb passed in
 def _get_all_subs(v):
-    verb_negated = _is_negated(v)
+    # verb_negated = _is_negated(v)
     subs = [tok for tok in v.lefts if tok.dep_ in SUBJECTS and tok.pos_ != "DET" and tok.lower_ not in STOP_WORDS]
     if len(subs) > 0:
         subs+=_get_subs_from_conjunctions(subs)
     else:
-        foundSubs, verb_negated = _find_subs(v)
+        foundSubs = _find_subs(v)
         subs+=foundSubs
-    return subs, verb_negated
+    return subs
 
 
 # is the token a verb?  (excluding auxiliary verbs)
@@ -211,10 +211,10 @@ def _get_all_objs(v, is_pas):
     potential_new_verb, potential_new_objs = _get_obj_from_xcomp(rights, is_pas)
     if potential_new_verb is not None and potential_new_objs is not None: #and len(potential_new_objs) > 0:
         objs+=potential_new_objs
-        v = potential_new_verb
+        # v = potential_new_verb
     if len(objs) > 0:
         objs+=_get_objs_from_conjunctions(objs)
-    return v, objs
+    return objs
 
 
 # return true if the sentence is passive - at he moment a sentence is assumed passive if it has an auxpass verb
@@ -248,7 +248,7 @@ def _get_that_resolution(toks):
 
 
 # expand an obj / subj np using its chunk
-def expand(item, tokens, visited, list_ents_lemma_):
+def expand(item, tokens, list_ents_lemma_):
     if item.lower_ == 'that':
         item_res = _get_that_resolution(tokens)
         if type(item_res) != spacy.tokens.doc.Doc:
@@ -302,51 +302,55 @@ def is_in_list_ents_lemma_(token, list_ents_lemma_):
         if token.lower_ in ent:
             return True
 
-def get_svo_pass(is_pas, obj,sub, tokens, visited, list_ents_lemma_):
-    o = to_str(expand(obj, tokens, visited, list_ents_lemma_))
-    s = to_str(expand(sub, tokens, visited, list_ents_lemma_))
-    
-    if is_pas:
-        return (o,s)
+# Ulya: I've made a few modifications here to reduce the number of if conditions in the find_svo code
+def get_svo_pass(is_pas, obj,sub, tokens, list_ents_lemma_, sub_bool):
+    if is_in_list_ents_lemma_(obj, list_ents_lemma_) or sub_bool:
+        o = to_str(expand(obj, tokens, list_ents_lemma_))
+        s = to_str(expand(sub, tokens, list_ents_lemma_))
+        
+        if is_pas and (o,s):
+            return True, (o,s)
+        elif (s,o):
+            return True, (s,o)
+        else:
+            return False, 0
+
     else:
-        return (s,o)
-    
+        return False, 0
+
+# Ulya: I've created this function to reduce the number of for loops in find_svo code
+def loop_for_objs(is_pas, sub, tokens, list_ents_lemma_, sub_bool, objs, svos):
+
+    for obj in objs:
+        # objNegated = _is_negated(obj)
+        #if is_in_list_ents_lemma_(obj, list_ents_lemma_) or sub_bool:
+        is_valid, res = get_svo_pass(is_pas, obj, sub, tokens, list_ents_lemma_, sub_bool)
+        if is_valid:
+            svos.append(res)
+
+    return svos
 
 # find verbs and their subjects / objects to create SVOs, detect passive/active sentences
-def findSVOs(tokens, list_ents_lemma_):
+def findSVOs(tokens, list_ents_lemma_): # Ulya: removed visited parameter here, and from the calling functions, because they weren't using it
     svos = []
     is_pas = _is_passive(tokens)
     verbs = [tok for tok in tokens if _is_non_aux_verb(tok)]
-    visited = set()  # recursion detection
 
     for v in verbs:
-        subs, verbNegated = _get_all_subs(v)
+        subs = _get_all_subs(v) #Ulya: verbNegated isn't used anywhere, so can we remove this from the functions?
         # hopefully there are subs, if not, don't examine this verb any longer
         if len(subs) > 0 :
             isConjVerb, conjV = _right_of_verb_is_conj_verb(v)
             if isConjVerb:
-                v2, objs = _get_all_objs(conjV, is_pas)
+                objs = _get_all_objs(conjV, is_pas)
                 for sub in subs:
-                    sub_bool = is_in_list_ents_lemma_(sub, list_ents_lemma_)
-                    for obj in objs:
-                        # objNegated = _is_negated(obj)
-                        if is_in_list_ents_lemma_(obj, list_ents_lemma_) or sub_bool:
-                            res = get_svo_pass(is_pas, obj, sub, tokens, visited, list_ents_lemma_)
-                            if res:
-                                svos.append(res)
-        
+                    sub_bool = is_in_list_ents_lemma_(sub, list_ents_lemma_)                   
+                    svos = loop_for_objs(is_pas, sub, tokens, list_ents_lemma_, sub_bool, objs, svos)
             else:
-                v, objs = _get_all_objs(v, is_pas)
+                objs = _get_all_objs(v, is_pas)
                 for sub in subs:
                     sub_bool = is_in_list_ents_lemma_(sub, list_ents_lemma_)
-                    for obj in objs:
-                        if is_in_list_ents_lemma_(obj, list_ents_lemma_) or sub_bool:
-                        # objNegated = _is_negated(obj)
-                            res = get_svo_pass(is_pas, obj, sub, tokens, visited, list_ents_lemma_)
-                            if res:
-                                svos.append(res)
-                     
-
+                    svos = loop_for_objs(is_pas, sub, tokens, list_ents_lemma_, sub_bool, objs, svos)
 
     return svos
 
