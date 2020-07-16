@@ -160,14 +160,7 @@ def prepare_graph(df_file):
 	return nx.adjacency_matrix(g)
 
 def main():
-	df = pd.read_csv('./graph_postCOVID_final.csv')
-	g = nx.from_pandas_edgelist(df, source='node1', target='node2', edge_attr='weight', create_using=nx.Graph())
-
-	k = 2000
-	sampled_nodes = random.sample(g.nodes, k)
-	sampled_graph = g.subgraph(sampled_nodes)
-	# adj_mat = prepare_graph('./graph_postCOVID_final.csv')
-	adj_mat = nx.adjacency_matrix(sampled_graph)
+	adj_mat = prepare_graph('./graph_postCOVID_final.csv')
 	adj_train, train_positive_edges, test_positive_edges, train_negative_edges, test_negative_edges = preprocess_data(adj_mat, prevent_disconnect=True, test_frac = 0.3)
 	Train_data, Test_data = create_dataframes(adj_mat, train_positive_edges, train_negative_edges, test_positive_edges, test_negative_edges)
 	Train_data.to_csv('./Train_data.csv')
