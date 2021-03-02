@@ -1,5 +1,18 @@
-# Ulya Bayram
-# ulyabayram@gmail.com
+#Author: Ulya Bayram
+#email : ulya.bayram@comu.edu.tr
+#
+# The original versions of these scripts can be found from the StellarGraph website
+#------------------------------------------------------------------------------------------------------
+#
+#------------------------------------------------------------------------------------------------------
+#
+#These code are writen for a research project, published in OIR. If you use any of them, please cite:
+
+#Ulya Bayram, Runia Roy, Aqil Assalil, Lamia Ben Hiba, 
+#"The Unknown Knowns: A Graph-Based Approach for Temporal COVID-19 Literature Mining", 
+#Online Information Review (OIR), COVID-19 Special Issue, 2021.
+#
+#------------------------------------------------------------------------------------------------------
 # Code to split the graph into training and test parts for running node2vec, and other link prediction methods
 import pandas as pd
 #from codetiming import Timer
